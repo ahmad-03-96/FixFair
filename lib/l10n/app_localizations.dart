@@ -86,7 +86,7 @@ class AppLocalizations {
       'additionalInfo': 'Weitere Informationen',
 
       'settings': 'Einstellungen',
-      'darkMode': 'Dark Mode',
+      'darkMode': 'Dunkelmodus',
       'language': 'Sprache',
       'settingsSaved': 'Einstellungen werden automatisch gespeichert',
       'darkModeEnabled': 'Dark Mode aktiviert',

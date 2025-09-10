@@ -88,7 +88,7 @@ class HeaderSection extends StatelessWidget {
                     Icon(Icons.settings, color: textColor, size: 20),
                     SizedBox(width: 8),
                     Text(
-                      'Einstellungen',
+                      localizations.settings,
                       style: TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.bold,
@@ -102,7 +102,7 @@ class HeaderSection extends StatelessWidget {
                 // Dark Mode Einstellung
                 _buildSettingItem(
                   icon: Icons.brightness_4,
-                  title: 'Dark Mode',
+                  title: localizations.darkMode,
                   textColor: textColor,
                   trailing: Switch(
                     value: themeProvider.themeMode == ThemeMode.dark,
@@ -125,7 +125,7 @@ class HeaderSection extends StatelessWidget {
                 // Spracheinstellung
                 _buildSettingItem(
                   icon: Icons.language,
-                  title: 'Sprache',
+                  title: localizations.language,
                   textColor: textColor,
                   trailing: Container(
                     padding: EdgeInsets.symmetric(horizontal: 8),
@@ -156,7 +156,7 @@ class HeaderSection extends StatelessWidget {
                           ScaffoldMessenger.of(context).showSnackBar(
                             SnackBar(
                               content: Text(
-                                'Sprache geändert / Language changed',
+                                localizations.languageChanged,
                               ),
                               duration: Duration(seconds: 1),
                             ),
@@ -184,7 +184,7 @@ class HeaderSection extends StatelessWidget {
 
                 // Info Text
                 Text(
-                  'Einstellungen werden automatisch gespeichert',
+                  localizations.settingsSaved,
                   style: TextStyle(
                     fontSize: 12,
                     color: textColor.withOpacity(0.7),
