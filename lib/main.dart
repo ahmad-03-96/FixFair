@@ -1,4 +1,3 @@
-import 'package:fix_fair/providers/web_review_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
@@ -24,7 +23,6 @@ class MyApp extends StatelessWidget {
       providers: [
         ChangeNotifierProvider(create: (_) => ThemeProvider()),
         ChangeNotifierProvider(create: (_) => LanguageProvider()),
-        ChangeNotifierProvider(create: (_) => WebReviewProvider()),
       ],
       child: Builder(
         builder: (context) {

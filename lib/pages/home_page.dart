@@ -1,13 +1,11 @@
 import 'package:fix_fair/pages/trust_detail_page.dart';
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 import '../l10n/app_localizations.dart';
 import '../widgets/footer.dart';
 import '../widgets/header_section.dart';
 import '../widgets/rive_placeholder.dart';
 import '../widgets/service_grid.dart';
-import 'admin_reviews_page.dart';
 import 'customers_detail_page.dart';
 import 'service_detail_page.dart';
 
@@ -29,9 +27,8 @@ class _HomePageState extends State<HomePage> {
   final TextEditingController _inspectionTypeController =
       TextEditingController();
 
-  String _selectedService = 'Privat-Umzüge';
   final ScrollController _scrollController = ScrollController();
-  final GlobalKey _formSectionKey = GlobalKey();
+
 
   @override
   void initState() {
@@ -52,94 +49,6 @@ class _HomePageState extends State<HomePage> {
     super.dispose();
   }
 
-  Future<void> _sendWhatsAppRequest(BuildContext context) async {
-    final localizations = AppLocalizations.of(context);
-
-    if (_nameController.text.isEmpty ||
-        _phoneController.text.isEmpty ||
-        _moveInAddressController.text.isEmpty ||
-        _moveOutAddressController.text.isEmpty) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text(localizations.errorRequiredFields)),
-      );
-      return;
-    }
-
-    String text =
-        "Hallo! Ich interessiere mich für ein Angebot:\n\n"
-        "📋 **Service:** $_selectedService\n\n"
-        "👤 **Persönliche Daten:**\n"
-        "• Name: ${_nameController.text}\n"
-        "• E-Mail: ${_emailController.text.isNotEmpty ? _emailController.text : 'nicht angegeben'}\n"
-        "• Telefon: ${_phoneController.text}\n\n"
-        "🏠 **Umzugsdaten:**\n"
-        "• Einzugsadresse: ${_moveInAddressController.text}\n"
-        "• Auszugsadresse: ${_moveOutAddressController.text}\n"
-        "• Zimmeranzahl: ${_roomCountController.text.isNotEmpty ? _roomCountController.text : 'nicht angegeben'}\n"
-        "• Besichtigung: ${_inspectionTypeController.text.isNotEmpty ? _inspectionTypeController.text : 'nicht angegeben'}\n\n"
-        "💬 **Weitere Informationen:**\n"
-        "${_messageController.text.isNotEmpty ? _messageController.text : 'keine zusätzliche Nachricht'}\n\n"
-        "Ich freue mich auf Ihre Rückmeldung!";
-
-    String encodedText = Uri.encodeFull(text);
-    String url = "https://wa.me/4917612345678?text=$encodedText";
-
-    final Uri uri = Uri.parse(url);
-    if (await canLaunchUrl(uri)) {
-      await launchUrl(uri);
-    } else {
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(SnackBar(content: Text(localizations.errorWhatsapp)));
-    }
-  }
-
-  Future<void> _sendEmailRequest(BuildContext context) async {
-    final localizations = AppLocalizations.of(context);
-
-    if (_nameController.text.isEmpty ||
-        _phoneController.text.isEmpty ||
-        _moveInAddressController.text.isEmpty ||
-        _moveOutAddressController.text.isEmpty) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text(localizations.errorRequiredFields)),
-      );
-      return;
-    }
-
-    final subject = 'Anfrage für: $_selectedService';
-    final body =
-        'Sehr geehrtes Team,\n\n'
-        'ich interessiere mich für folgende Dienstleistung:\n'
-        'Service: $_selectedService\n\n'
-        'Meine Kontaktdaten:\n'
-        'Name: ${_nameController.text}\n'
-        'Telefon: ${_phoneController.text}\n'
-        'E-Mail: ${_emailController.text}\n\n'
-        'Umzugsdaten:\n'
-        'Einzugsadresse: ${_moveInAddressController.text}\n'
-        'Auszugsadresse: ${_moveOutAddressController.text}\n'
-        'Zimmer: ${_roomCountController.text}\n\n'
-        'Weitere Informationen:\n'
-        '${_messageController.text}\n\n'
-        'Mit freundlichen Grüßen\n'
-        '${_nameController.text}';
-
-    final emailUrl =
-        'mailto:Info@fix-fair.de,aymanshehadeh48@gmail.com?'
-        'subject=${Uri.encodeComponent(subject)}&'
-        'body=${Uri.encodeComponent(body)}';
-
-    final Uri uri = Uri.parse(emailUrl);
-    if (await canLaunchUrl(uri)) {
-      await launchUrl(uri);
-    } else {
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(SnackBar(content: Text(localizations.errorEmail)));
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
     final localizations = AppLocalizations.of(context);
@@ -150,7 +59,6 @@ class _HomePageState extends State<HomePage> {
         controller: _scrollController,
         child: Column(
           children: [
-
             HeaderSection(),
 
             // Dienstleistungs-Sektion

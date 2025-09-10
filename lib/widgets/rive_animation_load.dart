@@ -79,7 +79,7 @@ class _RiveLogoState extends State<RiveAnimationLoad> {
       builder: (context, constraints) {
         // Responsive Größe basierend auf Bildschirmbreite
         final screenWidth = constraints.maxWidth;
-        final logoSize = screenWidth > 600
+        final animationSize = screenWidth > 600
             ? widget.maxSize *
             5 // Größer auf Tablets/Desktop
             : widget.maxSize * 4; // Standard auf Mobilgeräten
@@ -88,8 +88,8 @@ class _RiveLogoState extends State<RiveAnimationLoad> {
           onTap: widget.onTap ?? _toggleAnimation,
           onDoubleTap: _toggleAnimation,
           child: Container(
-            width: logoSize * 7.5,
-            height: logoSize * 0.25,
+            width: animationSize * 7.5,
+            height: animationSize * 0.25,
             decoration: BoxDecoration(borderRadius: BorderRadius.circular(20)),
             child: _riveArtboard != null
                 ? Rive(
@@ -98,7 +98,7 @@ class _RiveLogoState extends State<RiveAnimationLoad> {
               fit: BoxFit.contain,
               alignment: Alignment.center,
             )
-                : _buildPlaceholder(logoSize),
+                : _buildPlaceholder(animationSize),
           ),
         );
       },

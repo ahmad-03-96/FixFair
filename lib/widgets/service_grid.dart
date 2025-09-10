@@ -37,7 +37,7 @@ class ServiceGrid extends StatelessWidget {
             ? 1.2
             : MediaQuery.of(context).size.width > 750
             ? 0.85
-            : 1.5,
+            : 1.3,
       ),
       itemCount: services.length,
       itemBuilder: (context, index) {
