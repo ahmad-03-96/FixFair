@@ -248,6 +248,65 @@ class AppLocalizations {
       'paymentEncryption': 'Verschlüsselter Zahlungsverkehr auf dieser Website',
       'dataSecurity': 'Datensicherheit',
       'privacyPolicy': 'Datenschutzerklärung',
+
+      // Service Model
+      'professionalEquipment': 'Professionelles Equipment',
+      'insuredTransport': 'Versicherter Transport',
+      'assemblyDisassembly': 'Montage/Demontage von Möbeln',
+      'packagingIncluded': 'Verpackungsmaterial inklusive',
+      'environmentalDisposal': 'Umweltgerechte Entsorgung',
+      'recyclingPossible': 'Recycling wo möglich',
+      'bulkyWasteRemoval': 'Sperrmüllabtransport',
+      'cleaningIncluded': 'Reinigung inklusive',
+      'ceilingLinings': 'Deckenverkleidungen',
+      'soundproofingSolutions': 'Schallschutz-Lösungen',
+      'fireProtectionMeasures': 'Brandschutz-Maßnahmen',
+      'electricalPreparation': 'Elektroinstallation vorbereitet',
+      'bathroomDismantling': 'Badezimmer-Rückbau',
+      'kitchenDismantling': 'Küchen-Demontage',
+      'hazardousRemediation': 'Schadstoffsanierung',
+      'materialDisposal': 'Entsorgung aller Materialien',
+      'windowCleaning': 'Fensterreinigung',
+      'carpetCleaning': 'Teppichreinigung',
+      'maintenanceCleaning': 'Unterhaltsreinigung',
+      'specialCleaning': 'Spezialreinigungen',
+      'parquetLayingSanding': 'Parkett verlegen & abschleifen',
+      'vinylFlooringLaying': 'Vinyl-Böden verlegen',
+      'carpetLaying': 'Teppichböden verlegen',
+      'tileLaying': 'Fliesen verlegen',
+      'wallpaperPreparation': 'Tapezierarbeiten vorbereiten',
+      'doorWindowPainting': 'Lackieren von Türen & Fenstern',
+      'radiatorPainting': 'Heizkörper lackieren',
+      'facadeWork': 'Fassadenarbeiten',
+      'nonWovenWallpapers': 'Vliestapeten verlegen',
+      'designerWallpapers': 'Designertapeten',
+      'patternWallpapers': 'Mustertapeten fachgerecht',
+      'specialWallpapers': 'Spezialtapeten (Struktur, etc.)',
+      'lawnMowingCare': 'Rasen mähen & pflegen',
+      'hedgeTrimming': 'Hecken schneiden',
+      'plantingWork': 'Pflanzarbeiten',
+      'pathsTerraces': 'Wege & Terrassen anlegen',
+      'smallRepairs': 'kleine Reparaturen',
+      'winterService': 'Winterdienst',
+      'greenSpaceCare': 'Grünflächenpflege',
+      'emergencyService': 'Notdienst verfügbar',
+      'electricalConnections': 'Elektroanschlüsse',
+      'waterConnections': 'Wasseranschlüsse',
+      'countertopCutting': 'Arbeitsplatten zuschneiden',
+      'applianceInstallation': 'Einbau von Geräten',
+      'builtinCabinets': 'Einbauschränke montieren',
+      'shelvesCabinets': 'Regale und Schränke aufbauen',
+      'bedsMattresses': 'Betten und Matratzen montieren',
+      'gardenFurniture': 'Gartenmöbel aufbauen',
+      'sortingItems': 'Sortierung der Gegenstände',
+      'usableItems': 'Verwertung brauchbarer Items',
+      'disposalUnusable': 'Entsorgung nicht brauchbarer Items',
+      'premisesCleaning': 'Reinigung der Räumlichkeiten',
+      'customSolutions': 'Maßgeschneiderte Lösungen',
+      'flexibleScheduling': 'Flexible Terminvereinbarung',
+      'individualOffers': 'Individuelle Angebote',
+      'specialOrders': 'Spezialaufträge möglich',
+      'onSiteConsultation': 'Beratung vor Ort',
     },
     'en': {
       'appTitle': 'Fix & Fair',
@@ -493,6 +552,65 @@ class AppLocalizations {
       'paymentEncryption': 'Encrypted Payment Transactions on this Website',
       'dataSecurity': 'Data Security',
       'privacyPolicy': 'Privacy Policy',
+
+      //Service Model
+      'professionalEquipment': 'Professional equipment',
+      'insuredTransport': 'Insured transport',
+      'assemblyDisassembly': 'Assembly/disassembly of furniture',
+      'packagingIncluded': 'Packaging material included',
+      'environmentalDisposal': 'Environmentally friendly disposal',
+      'recyclingPossible': 'Recycling where possible',
+      'bulkyWasteRemoval': 'Bulky waste removal',
+      'cleaningIncluded': 'Cleaning included',
+      'ceilingLinings': 'Ceiling linings',
+      'soundproofingSolutions': 'Soundproofing solutions',
+      'fireProtectionMeasures': 'Fire protection measures',
+      'electricalPreparation': 'Electrical preparation',
+      'bathroomDismantling': 'Bathroom dismantling',
+      'kitchenDismantling': 'Kitchen dismantling',
+      'hazardousRemediation': 'Hazardous material remediation',
+      'materialDisposal': 'Disposal of all materials',
+      'windowCleaning': 'Window cleaning',
+      'carpetCleaning': 'Carpet cleaning',
+      'maintenanceCleaning': 'Maintenance cleaning',
+      'specialCleaning': 'Special cleaning',
+      'parquetLayingSanding': 'Parquet laying & sanding',
+      'vinylFlooringLaying': 'Vinyl flooring laying',
+      'carpetLaying': 'Carpet laying',
+      'tileLaying': 'Tile laying',
+      'wallpaperPreparation': 'Wallpaper preparation',
+      'doorWindowPainting': 'Painting doors & windows',
+      'radiatorPainting': 'Radiator painting',
+      'facadeWork': 'Facade work',
+      'nonWovenWallpapers': 'Non-woven wallpapers',
+      'designerWallpapers': 'Designer wallpapers',
+      'patternWallpapers': 'Pattern wallpapers professionally',
+      'specialWallpapers': 'Special wallpapers (texture, etc.)',
+      'lawnMowingCare': 'Lawn mowing & care',
+      'hedgeTrimming': 'Hedge trimming',
+      'plantingWork': 'Planting work',
+      'pathsTerraces': 'Paths & terraces construction',
+      'smallRepairs': 'Small repairs',
+      'winterService': 'Winter service',
+      'greenSpaceCare': 'Green space care',
+      'emergencyService': 'Emergency service available',
+      'electricalConnections': 'Electrical connections',
+      'waterConnections': 'Water connections',
+      'countertopCutting': 'Countertop cutting',
+      'applianceInstallation': 'Appliance installation',
+      'builtinCabinets': 'Built-in cabinets mounting',
+      'shelvesCabinets': 'Shelves and cabinets assembly',
+      'bedsMattresses': 'Beds and mattresses assembly',
+      'gardenFurniture': 'Garden furniture assembly',
+      'sortingItems': 'Sorting of items',
+      'usableItems': 'Utilization of usable items',
+      'disposalUnusable': 'Disposal of unusable items',
+      'premisesCleaning': 'Premises cleaning',
+      'customSolutions': 'Custom solutions',
+      'flexibleScheduling': 'Flexible scheduling',
+      'individualOffers': 'Individual offers',
+      'specialOrders': 'Special orders possible',
+      'onSiteConsultation': 'On-site consultation',
     },
     'ar': {
       'appTitle': 'فيكس آند فير',
@@ -732,6 +850,65 @@ class AppLocalizations {
       'paymentEncryption': 'معاملات الدفع المشفرة على هذا الموقع',
       'dataSecurity': 'أمان البيانات',
       'privacyPolicy': 'سياسة الخصوصية',
+
+      // Service Features
+      'professionalEquipment': 'معدات احترافية',
+      'insuredTransport': 'نقل مؤمن',
+      'assemblyDisassembly': 'تركيب/تفكيك الأثاث',
+      'packagingIncluded': 'مواد التغليف مشمولة',
+      'environmentalDisposal': 'تخلص صديق للبيئة',
+      'recyclingPossible': 'إعادة التدوير حيثما أمكن',
+      'bulkyWasteRemoval': 'إزالة النفايات الضخمة',
+      'cleaningIncluded': 'التنظيف مشمول',
+      'ceilingLinings': 'بطانات السقف',
+      'soundproofingSolutions': 'حلول عازلة للصوت',
+      'fireProtectionMeasures': 'إجراءات الحماية من الحرائق',
+      'electricalPreparation': 'تحضيرات كهربائية',
+      'bathroomDismantling': 'تفكيك الحمام',
+      'kitchenDismantling': 'تفكيك المطبخ',
+      'hazardousRemediation': 'معالجة المواد الخطرة',
+      'materialDisposal': 'تخلص من جميع المواد',
+      'windowCleaning': 'تنظيف النوافذ',
+      'carpetCleaning': 'تنظيف السجاد',
+      'maintenanceCleaning': 'تنظيف الصيانة',
+      'specialCleaning': 'تنظيف خاص',
+      'parquetLayingSanding': 'تركيب وصنفرة الباركيه',
+      'vinylFlooringLaying': 'تركيب أرضيات الفينيل',
+      'carpetLaying': 'تركيب السجاد',
+      'tileLaying': 'تركيب البلاط',
+      'wallpaperPreparation': 'تحضير ورق الحائط',
+      'doorWindowPainting': 'طلاء الأبواب والنوافذ',
+      'radiatorPainting': 'طلاء المشعات',
+      'facadeWork': 'أعمال الواجهة',
+      'nonWovenWallpapers': 'تركيب ورق حائط غير منسوج',
+      'designerWallpapers': 'ورق حائط مصمم',
+      'patternWallpapers': 'ورق حائط مزخرف بشكل احترافي',
+      'specialWallpapers': 'ورق حائط خاص (ملمس، إلخ)',
+      'lawnMowingCare': 'قص العشب والعناية به',
+      'hedgeTrimming': 'تقليم التحوط',
+      'plantingWork': 'أعمال الزراعة',
+      'pathsTerraces': 'إنشاء الممرات والتراسات',
+      'smallRepairs': 'إصلاحات صغيرة',
+      'winterService': 'خدمة الشتاء',
+      'greenSpaceCare': 'العناية بالمساحات الخضراء',
+      'emergencyService': 'خدمة الطوارئ متاحة',
+      'electricalConnections': 'وصلات كهربائية',
+      'waterConnections': 'وصلات المياه',
+      'countertopCutting': 'قطع أسطح العمل',
+      'applianceInstallation': 'تركيب الأجهزة',
+      'builtinCabinets': 'تركيب الخزائن المدمجة',
+      'shelvesCabinets': 'تجميع الرفوف والخزائن',
+      'bedsMattresses': 'تجميع الأسرة والمراتب',
+      'gardenFurniture': 'تجميع أثاث الحديقة',
+      'sortingItems': 'فرز العناصر',
+      'usableItems': 'استخدام العناصر القابلة للاستخدام',
+      'disposalUnusable': 'تخلص من العناصر غير القابلة للاستخدام',
+      'premisesCleaning': 'تنظيف المباني',
+      'customSolutions': 'حلول مخصصة',
+      'flexibleScheduling': 'جدولة مرنة',
+      'individualOffers': 'عروض فردية',
+      'specialOrders': 'طلبات خاصة ممكنة',
+      'onSiteConsultation': 'استشارة في الموقع',
     },
     'tr': {
       'appTitle': 'Fix & Fair',
@@ -972,6 +1149,65 @@ class AppLocalizations {
       'paymentEncryption': 'Bu Web Sitesinde Şifreli Ödeme İşlemleri',
       'dataSecurity': 'Veri Güvenliği',
       'privacyPolicy': 'Gizlilik Politikası',
+
+      // Service Features
+      'professionalEquipment': 'Profesyonel ekipman',
+      'insuredTransport': 'Sigortalı nakliye',
+      'assemblyDisassembly': 'Mobilya montajı/sökümü',
+      'packagingIncluded': 'Ambalaj malzemesi dahil',
+      'environmentalDisposal': 'Çevre dostu bertaraf',
+      'recyclingPossible': 'Mümkün olduğunda geri dönüşüm',
+      'bulkyWasteRemoval': 'Büyük hacimli atık kaldırma',
+      'cleaningIncluded': 'Temizlik dahil',
+      'ceilingLinings': 'Tavan kaplamaları',
+      'soundproofingSolutions': 'Ses yalıtım çözümleri',
+      'fireProtectionMeasures': 'Yangın koruma önlemleri',
+      'electricalPreparation': 'Elektrik hazırlığı',
+      'bathroomDismantling': 'Banyo sökümü',
+      'kitchenDismantling': 'Mutfak sökümü',
+      'hazardousRemediation': 'Tehlikeli madde ıslahı',
+      'materialDisposal': 'Tüm malzemelerin bertarafı',
+      'windowCleaning': 'Pencere temizliği',
+      'carpetCleaning': 'Halı temizliği',
+      'maintenanceCleaning': 'Bakım temizliği',
+      'specialCleaning': 'Özel temizlik',
+      'parquetLayingSanding': 'Parke döşeme ve zımparalama',
+      'vinylFlooringLaying': 'Vinil zemin döşeme',
+      'carpetLaying': 'Halı döşeme',
+      'tileLaying': 'Fayans döşeme',
+      'wallpaperPreparation': 'Duvar kağıdı hazırlığı',
+      'doorWindowPainting': 'Kapı ve pencere boyama',
+      'radiatorPainting': 'Radyatör boyama',
+      'facadeWork': 'Cephe çalışmaları',
+      'nonWovenWallpapers': 'Dokumasız duvar kağıtları',
+      'designerWallpapers': 'Tasarımcı duvar kağıtları',
+      'patternWallpapers': 'Desenli duvar kağıtları profesyonelce',
+      'specialWallpapers': 'Özel duvar kağıtları (doku, vb.)',
+      'lawnMowingCare': 'Çim biçme ve bakım',
+      'hedgeTrimming': 'Çit budama',
+      'plantingWork': 'Dikim çalışmaları',
+      'pathsTerraces': 'Yol ve teras inşaatı',
+      'smallRepairs': 'Küçük tamiratlar',
+      'winterService': 'Kış hizmeti',
+      'greenSpaceCare': 'Yeşil alan bakımı',
+      'emergencyService': 'Acil servis mevcut',
+      'electricalConnections': 'Elektrik bağlantıları',
+      'waterConnections': 'Su bağlantıları',
+      'countertopCutting': 'Tezgah kesimi',
+      'applianceInstallation': 'Cihaz kurulumu',
+      'builtinCabinets': 'Gömme dolaplar montajı',
+      'shelvesCabinets': 'Raf ve dolaplar montajı',
+      'bedsMattresses': 'Yatak ve şilteler montajı',
+      'gardenFurniture': 'Bahçe mobilyaları montajı',
+      'sortingItems': 'Eşya sıralama',
+      'usableItems': 'Kullanılabilir eşyaların değerlendirilmesi',
+      'disposalUnusable': 'Kullanılamaz eşyaların bertarafı',
+      'premisesCleaning': 'Mekan temizliği',
+      'customSolutions': 'Özel çözümler',
+      'flexibleScheduling': 'Esnek programlama',
+      'individualOffers': 'Bireysel teklifler',
+      'specialOrders': 'Özel siparişler mümkün',
+      'onSiteConsultation': 'Yerinde danışmanlık',
     },
     'ru': {
       'appTitle': 'Fix & Fair',
@@ -1217,6 +1453,65 @@ class AppLocalizations {
       'paymentEncryption': 'Зашифрованные платежи на этом сайте',
       'dataSecurity': 'Безопасность данных',
       'privacyPolicy': 'Политика конфиденциальности',
+
+      // Service Features
+      'professionalEquipment': 'Профессиональное оборудование',
+      'insuredTransport': 'Застрахованная перевозка',
+      'assemblyDisassembly': 'Сборка/разборка мебели',
+      'packagingIncluded': 'Упаковочные материалы включены',
+      'environmentalDisposal': 'Экологичная утилизация',
+      'recyclingPossible': 'Переработка где возможно',
+      'bulkyWasteRemoval': 'Вывоз крупногабаритных отходов',
+      'cleaningIncluded': 'Уборка включена',
+      'ceilingLinings': 'Потолочные покрытия',
+      'soundproofingSolutions': 'Звукоизоляционные решения',
+      'fireProtectionMeasures': 'Меры противопожарной защиты',
+      'electricalPreparation': 'Электрическая подготовка',
+      'bathroomDismantling': 'Демонтаж ванной комнаты',
+      'kitchenDismantling': 'Демонтаж кухни',
+      'hazardousRemediation': 'Обезвреживание опасных материалов',
+      'materialDisposal': 'Утилизация всех материалов',
+      'windowCleaning': 'Мытье окон',
+      'carpetCleaning': 'Чистка ковров',
+      'maintenanceCleaning': 'Поддерживающая уборка',
+      'specialCleaning': 'Специальная уборка',
+      'parquetLayingSanding': 'Укладка и шлифовка паркета',
+      'vinylFlooringLaying': 'Укладка виниловых полов',
+      'carpetLaying': 'Укладка ковров',
+      'tileLaying': 'Укладка плитки',
+      'wallpaperPreparation': 'Подготовка обоев',
+      'doorWindowPainting': 'Покраска дверей и окон',
+      'radiatorPainting': 'Покраска радиаторов',
+      'facadeWork': 'Фасадные работы',
+      'nonWovenWallpapers': 'Укладка флизелиновых обоев',
+      'designerWallpapers': 'Дизайнерские обои',
+      'patternWallpapers': 'Узорные обои профессионально',
+      'specialWallpapers': 'Специальные обои (текстура и т.д.)',
+      'lawnMowingCare': 'Стрижка и уход за газоном',
+      'hedgeTrimming': 'Стрижка живой изгороди',
+      'plantingWork': 'Посадочные работы',
+      'pathsTerraces': 'Строительство дорожек и террас',
+      'smallRepairs': 'Мелкий ремонт',
+      'winterService': 'Зимнее обслуживание',
+      'greenSpaceCare': 'Уход за зелеными насаждениями',
+      'emergencyService': 'Круглосуточный сервис',
+      'electricalConnections': 'Электрические подключения',
+      'waterConnections': 'Водопроводные подключения',
+      'countertopCutting': 'Раскрой столешниц',
+      'applianceInstallation': 'Установка бытовой техники',
+      'builtinCabinets': 'Монтаж встроенных шкафов',
+      'shelvesCabinets': 'Сборка полок и шкафов',
+      'bedsMattresses': 'Сборка кроватей и матрасов',
+      'gardenFurniture': 'Сборка садовой мебели',
+      'sortingItems': 'Сортировка предметов',
+      'usableItems': 'Использование пригодных предметов',
+      'disposalUnusable': 'Утилизация непригодных предметов',
+      'premisesCleaning': 'Уборка помещений',
+      'customSolutions': 'Индивидуальные решения',
+      'flexibleScheduling': 'Гибкое планирование',
+      'individualOffers': 'Индивидуальные предложения',
+      'specialOrders': 'Специальные заказы возможны',
+      'onSiteConsultation': 'Консультация на месте',
     },
     'uk': {
       'appTitle': 'Fix & Fair',
@@ -1465,6 +1760,65 @@ class AppLocalizations {
       'paymentEncryption': 'Зашифровані платіжні транзакції на цьому сайті',
       'dataSecurity': 'Безпека даних',
       'privacyPolicy': 'Політика конфіденційності',
+
+      // Service Features
+      'professionalEquipment': 'Професійне обладнання',
+      'insuredTransport': 'Застраховані перевезення',
+      'assemblyDisassembly': 'Збірка/розбирання меблів',
+      'packagingIncluded': 'Упаковочні матеріали включено',
+      'environmentalDisposal': 'Екологічна утилізація',
+      'recyclingPossible': 'Переробка там, де можливо',
+      'bulkyWasteRemoval': 'Вивезення великогабаритних відходів',
+      'cleaningIncluded': 'Прибирання включено',
+      'ceilingLinings': 'Стельові покриття',
+      'soundproofingSolutions': 'Звукоізоляційні рішення',
+      'fireProtectionMeasures': 'Заходи пожежної безпеки',
+      'electricalPreparation': 'Електрична підготовка',
+      'bathroomDismantling': 'Демонтаж ванної кімнати',
+      'kitchenDismantling': 'Демонтаж кухні',
+      'hazardousRemediation': 'Знешкодження небезпечних матеріалів',
+      'materialDisposal': 'Утилізація всіх матеріалів',
+      'windowCleaning': 'Мититя вікон',
+      'carpetCleaning': 'Чистка килимів',
+      'maintenanceCleaning': 'Підтримуюче прибирання',
+      'specialCleaning': 'Спеціальне прибирання',
+      'parquetLayingSanding': 'Укладання та шліфування паркету',
+      'vinylFlooringLaying': 'Укладання вінілових підлог',
+      'carpetLaying': 'Укладання килимів',
+      'tileLaying': 'Укладання плитки',
+      'wallpaperPreparation': 'Підготовка шпалер',
+      'doorWindowPainting': 'Фарбування дверей та вікон',
+      'radiatorPainting': 'Фарбування радіаторів',
+      'facadeWork': 'Фасадні роботи',
+      'nonWovenWallpapers': 'Укладання флізелінових шпалер',
+      'designerWallpapers': 'Дизайнерські шпалери',
+      'patternWallpapers': 'Візерункові шпалери професійно',
+      'specialWallpapers': 'Спеціальні шпалери (текстура тощо)',
+      'lawnMowingCare': 'Косіння та догляд за газоном',
+      'hedgeTrimming': 'Стрижка живоплоту',
+      'plantingWork': 'Посадкові роботи',
+      'pathsTerraces': 'Будівництво доріжок та терас',
+      'smallRepairs': 'Дрібний ремонт',
+      'winterService': 'Зимове обслуговування',
+      'greenSpaceCare': 'Догляд за зеленими насадженнями',
+      'emergencyService': 'Цілодобовий сервіс',
+      'electricalConnections': 'Електричні підключення',
+      'waterConnections': 'Водопровідні підключення',
+      'countertopCutting': 'Розкрій стільниць',
+      'applianceInstallation': 'Встановлення побутової техніки',
+      'builtinCabinets': 'Монтаж вбудованих шаф',
+      'shelvesCabinets': 'Збірка полиць та шаф',
+      'bedsMattresses': 'Збірка ліжок та матраців',
+      'gardenFurniture': 'Збірка садових меблів',
+      'sortingItems': 'Сортування предметів',
+      'usableItems': 'Використання придатних предметів',
+      'disposalUnusable': 'Утилізація непридатних предметів',
+      'premisesCleaning': 'Прибирання приміщень',
+      'customSolutions': 'Індивідуальні рішення',
+      'flexibleScheduling': 'Гнучке планування',
+      'individualOffers': 'Індивідуальні пропозиції',
+      'specialOrders': 'Спеціальні замовлення можливі',
+      'onSiteConsultation': 'Консультація на місці',
     },
   };
 
@@ -1929,6 +2283,134 @@ class AppLocalizations {
   String get dataSecurity => _getText('dataSecurity');
 
   String get privacyPolicy => _getText('privacyPolicy');
+
+  // Equipment & Transport
+  String get professionalEquipment => _getText('professionalEquipment');
+
+  String get insuredTransport => _getText('insuredTransport');
+
+  String get assemblyDisassembly => _getText('assemblyDisassembly');
+
+  String get packagingIncluded => _getText('packagingIncluded');
+
+  // Entrümpelung
+  String get environmentalDisposal => _getText('environmentalDisposal');
+
+  String get recyclingPossible => _getText('recyclingPossible');
+
+  String get bulkyWasteRemoval => _getText('bulkyWasteRemoval');
+
+  String get cleaningIncluded => _getText('cleaningIncluded');
+
+  // Trockenbau
+  String get ceilingLinings => _getText('ceilingLinings');
+
+  String get soundproofingSolutions => _getText('soundproofingSolutions');
+
+  String get fireProtectionMeasures => _getText('fireProtectionMeasures');
+
+  String get electricalPreparation => _getText('electricalPreparation');
+
+  // Abbruch
+  String get bathroomDismantling => _getText('bathroomDismantling');
+
+  String get kitchenDismantling => _getText('kitchenDismantling');
+
+  String get hazardousRemediation => _getText('hazardousRemediation');
+
+  String get materialDisposal => _getText('materialDisposal');
+
+  // Reinigung
+  String get windowCleaning => _getText('windowCleaning');
+
+  String get carpetCleaning => _getText('carpetCleaning');
+
+  String get maintenanceCleaning => _getText('maintenanceCleaning');
+
+  String get specialCleaning => _getText('specialCleaning');
+
+  // Bodenleger
+  String get parquetLayingSanding => _getText('parquetLayingSanding');
+
+  String get vinylFlooringLaying => _getText('vinylFlooringLaying');
+
+  String get carpetLaying => _getText('carpetLaying');
+
+  String get tileLaying => _getText('tileLaying');
+
+  // Streichen
+  String get wallpaperPreparation => _getText('wallpaperPreparation');
+
+  String get doorWindowPainting => _getText('doorWindowPainting');
+
+  String get radiatorPainting => _getText('radiatorPainting');
+
+  String get facadeWork => _getText('facadeWork');
+
+  // Tapezieren
+  String get nonWovenWallpapers => _getText('nonWovenWallpapers');
+
+  String get designerWallpapers => _getText('designerWallpapers');
+
+  String get patternWallpapers => _getText('patternWallpapers');
+
+  String get specialWallpapers => _getText('specialWallpapers');
+
+  // Gartenarbeit
+  String get lawnMowingCare => _getText('lawnMowingCare');
+
+  String get hedgeTrimming => _getText('hedgeTrimming');
+
+  String get plantingWork => _getText('plantingWork');
+
+  String get pathsTerraces => _getText('pathsTerraces');
+
+  // Hausmeister
+  String get smallRepairs => _getText('smallRepairs');
+
+  String get winterService => _getText('winterService');
+
+  String get greenSpaceCare => _getText('greenSpaceCare');
+
+  String get emergencyService => _getText('emergencyService');
+
+  // Küchenmontage
+  String get electricalConnections => _getText('electricalConnections');
+
+  String get waterConnections => _getText('waterConnections');
+
+  String get countertopCutting => _getText('countertopCutting');
+
+  String get applianceInstallation => _getText('applianceInstallation');
+
+  // Möbelmontage
+  String get builtinCabinets => _getText('builtinCabinets');
+
+  String get shelvesCabinets => _getText('shelvesCabinets');
+
+  String get bedsMattresses => _getText('bedsMattresses');
+
+  String get gardenFurniture => _getText('gardenFurniture');
+
+  // Haushaltsauflösung
+  String get sortingItems => _getText('sortingItems');
+
+  String get usableItems => _getText('usableItems');
+
+  String get disposalUnusable => _getText('disposalUnusable');
+
+  String get premisesCleaning => _getText('premisesCleaning');
+
+  // Sonstiges
+  String get customSolutions => _getText('customSolutions');
+
+  String get flexibleScheduling => _getText('flexibleScheduling');
+
+  String get individualOffers => _getText('individualOffers');
+
+  String get specialOrders => _getText('specialOrders');
+
+  String get onSiteConsultation => _getText('onSiteConsultation');
 }
 
 class AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
