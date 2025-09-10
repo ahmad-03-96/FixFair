@@ -8,6 +8,7 @@ class Service {
   final String Function(BuildContext) description;
   final String imageAsset;
   final List<String> Function(BuildContext) features;
+  final String urlPath; // NEU: SEO-optimierte URL
 
   Service({
     required this.id,
@@ -15,6 +16,7 @@ class Service {
     required this.description,
     required this.imageAsset,
     required this.features,
+    required this.urlPath, // NEU
   });
 }
 
@@ -35,6 +37,7 @@ List<Service> getServices(BuildContext context) {
         '✓ ${localizations.assemblyDisassembly}',
         '✓ ${localizations.packagingIncluded}',
       ],
+      urlPath: '/umzug-kassel', // SEO-URL
     ),
     Service(
       id: 'entruempelung',
@@ -48,6 +51,7 @@ List<Service> getServices(BuildContext context) {
         '✓ ${localizations.bulkyWasteRemoval}',
         '✓ ${localizations.cleaningIncluded}',
       ],
+      urlPath: '/entruempelung-kassel', // SEO-URL
     ),
     Service(
       id: 'trockenbau',
@@ -61,6 +65,7 @@ List<Service> getServices(BuildContext context) {
         '✓ ${localizations.fireProtectionMeasures}',
         '✓ ${localizations.electricalPreparation}',
       ],
+      urlPath: '/trockenbau-kassel', // SEO-URL
     ),
     Service(
       id: 'abbruch',
@@ -74,6 +79,7 @@ List<Service> getServices(BuildContext context) {
         '✓ ${localizations.hazardousRemediation}',
         '✓ ${localizations.materialDisposal}',
       ],
+      urlPath: '/abbrucharbeiten-kassel', // SEO-URL
     ),
     Service(
       id: 'gebaeudereinigung',
@@ -87,6 +93,7 @@ List<Service> getServices(BuildContext context) {
         '✓ ${localizations.maintenanceCleaning}',
         '✓ ${localizations.specialCleaning}',
       ],
+      urlPath: '/gebaeudereinigung-kassel', // SEO-URL
     ),
     Service(
       id: 'bodenleger',
@@ -100,6 +107,7 @@ List<Service> getServices(BuildContext context) {
         '✓ ${localizations.carpetLaying}',
         '✓ ${localizations.tileLaying}',
       ],
+      urlPath: '/bodenverlegung-kassel', // SEO-URL
     ),
     Service(
       id: 'streichen',
@@ -113,6 +121,7 @@ List<Service> getServices(BuildContext context) {
         '✓ ${localizations.radiatorPainting}',
         '✓ ${localizations.facadeWork}',
       ],
+      urlPath: '/malerarbeiten-kassel', // SEO-URL
     ),
     Service(
       id: 'tapezieren',
@@ -126,6 +135,7 @@ List<Service> getServices(BuildContext context) {
         '✓ ${localizations.patternWallpapers}',
         '✓ ${localizations.specialWallpapers}',
       ],
+      urlPath: '/tapezierarbeiten-kassel', // SEO-URL
     ),
     Service(
       id: 'gartenarbeit',
@@ -139,6 +149,7 @@ List<Service> getServices(BuildContext context) {
         '✓ ${localizations.plantingWork}',
         '✓ ${localizations.pathsTerraces}',
       ],
+      urlPath: '/gartenarbeit-kassel', // SEO-URL
     ),
     Service(
       id: 'hausmeisterservice',
@@ -152,6 +163,7 @@ List<Service> getServices(BuildContext context) {
         '✓ ${localizations.greenSpaceCare}',
         '✓ ${localizations.emergencyService}',
       ],
+      urlPath: '/hausmeisterservice-kassel', // SEO-URL
     ),
     Service(
       id: 'kuechenmontage',
@@ -165,6 +177,7 @@ List<Service> getServices(BuildContext context) {
         '✓ ${localizations.countertopCutting}',
         '✓ ${localizations.applianceInstallation}',
       ],
+      urlPath: '/kuechenmontage-kassel', // SEO-URL
     ),
     Service(
       id: 'moebelmontage',
@@ -178,6 +191,7 @@ List<Service> getServices(BuildContext context) {
         '✓ ${localizations.bedsMattresses}',
         '✓ ${localizations.gardenFurniture}',
       ],
+      urlPath: '/moebelmontage-kassel', // SEO-URL
     ),
     Service(
       id: 'haushaltsaufloesung',
@@ -191,6 +205,7 @@ List<Service> getServices(BuildContext context) {
         '✓ ${localizations.disposalUnusable}',
         '✓ ${localizations.premisesCleaning}',
       ],
+      urlPath: '/haushaltsaufloesung-kassel', // SEO-URL
     ),
     Service(
       id: 'sonstiges',
@@ -204,6 +219,25 @@ List<Service> getServices(BuildContext context) {
         '✓ ${localizations.specialOrders}',
         '✓ ${localizations.onSiteConsultation}',
       ],
+      urlPath: '/sonstige-dienstleistungen', // SEO-URL
     ),
   ];
+}
+
+// HELFER-FUNKTION: Service by ID finden
+Service getServiceById(String id, BuildContext context) {
+  final services = getServices(context);
+  return services.firstWhere(
+        (service) => service.id == id,
+    orElse: () => services.first, // Fallback zum ersten Service
+  );
+}
+
+// HELFER-FUNKTION: Service by URL Path finden
+Service getServiceByUrlPath(String urlPath, BuildContext context) {
+  final services = getServices(context);
+  return services.firstWhere(
+        (service) => service.urlPath == urlPath,
+    orElse: () => services.first, // Fallback zum ersten Service
+  );
 }
