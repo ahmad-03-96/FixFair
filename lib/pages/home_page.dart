@@ -150,36 +150,7 @@ class _HomePageState extends State<HomePage> {
         controller: _scrollController,
         child: Column(
           children: [
-            Positioned(
-              top: 50, // 50 Pixel vom oben
-              right: 20, // 20 Pixel vom rechts
-              child: GestureDetector(
-                onLongPress: () {
-                  print("Admin Button gedrückt!"); // Debug Ausgabe
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) => const AdminReviewsPage(),
-                    ),
-                  );
-                },
-                child: Container(
-                  width: 60,
-                  height: 60,
-                  decoration: BoxDecoration(
-                    color: Colors.red.withOpacity(0.3), // SICHTBAR für Test
-                    shape: BoxShape.circle,
-                  ),
-                  child: const Center(
-                    child: Icon(
-                      Icons.admin_panel_settings,
-                      color: Colors.transparent,
-                      size: 30,
-                    ),
-                  ),
-                ),
-              ),
-            ),
+
             HeaderSection(),
 
             // Dienstleistungs-Sektion

@@ -3,8 +3,8 @@ import 'package:provider/provider.dart';
 
 import '../l10n/app_localizations.dart';
 import '../models/review_model.dart';
-import '../providers/file_review_provider.dart';
 import '../providers/theme_provider.dart';
+import '../providers/web_review_provider.dart';
 import '../widgets/rive_animation_load.dart';
 import 'add_review_page.dart';
 
@@ -12,7 +12,7 @@ class CustomersDetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final themeProvider = Provider.of<ThemeProvider>(context);
-    final fileReviewProvider = Provider.of<FileReviewProvider>(context);
+    final webReviewProvider = Provider.of<WebReviewProvider>(context);
     final localizations = AppLocalizations.of(context);
     final textColor = themeProvider.getTextColor(context);
     final cardColor = themeProvider.getCardColor(context);
@@ -73,7 +73,7 @@ class CustomersDetailPage extends StatelessWidget {
                 child: Column(
                   children: [
                     Text(
-                      '${fileReviewProvider.totalReviews} Bewertungen',
+                      '${webReviewProvider.totalReviews} Bewertungen',
                       style: TextStyle(
                         fontSize: 24,
                         fontWeight: FontWeight.bold,
@@ -85,7 +85,7 @@ class CustomersDetailPage extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(
-                          fileReviewProvider.averageRating.toStringAsFixed(1),
+                          webReviewProvider.averageRating.toStringAsFixed(1),
                           style: TextStyle(
                             fontSize: 32,
                             fontWeight: FontWeight.bold,
@@ -109,7 +109,7 @@ class CustomersDetailPage extends StatelessWidget {
             SizedBox(height: 30),
 
             // Bewertungen Liste
-            if (fileReviewProvider.reviews.isNotEmpty) ...[
+            if (webReviewProvider.reviews.isNotEmpty) ...[
               Text(
                 'Kundenbewertungen',
                 style: TextStyle(
@@ -121,7 +121,7 @@ class CustomersDetailPage extends StatelessWidget {
               SizedBox(height: 20),
 
               Column(
-                children: fileReviewProvider.reviews
+                children: webReviewProvider.reviews
                     .map(
                       (review) =>
                           _buildTestimonial(review: review, color: textColor),

@@ -1,5 +1,4 @@
-import 'package:fix_fair/pages/admin_reviews_page.dart';
-import 'package:fix_fair/providers/file_review_provider.dart';
+import 'package:fix_fair/providers/web_review_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
@@ -25,7 +24,7 @@ class MyApp extends StatelessWidget {
       providers: [
         ChangeNotifierProvider(create: (_) => ThemeProvider()),
         ChangeNotifierProvider(create: (_) => LanguageProvider()),
-        ChangeNotifierProvider(create: (_) => FileReviewProvider()),
+        ChangeNotifierProvider(create: (_) => WebReviewProvider()),
       ],
       child: Builder(
         builder: (context) {
@@ -56,8 +55,7 @@ class MyApp extends StatelessWidget {
             routes: {
               '/impressum': (context) => ImpressumPage(),
               '/datenschutz': (context) => DatenschutzPage(),
-              '/agb': (context) => AgbPage(),
-              '/admin-reviews': (context) => AdminReviewsPage(), // NEU
+              '/agb': (context) => AgbPage(), // NEU
             },
             initialRoute: '/',
             onGenerateRoute: (settings) {

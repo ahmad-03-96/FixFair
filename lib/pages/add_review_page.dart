@@ -1,4 +1,5 @@
-import 'package:fix_fair/providers/file_review_provider.dart';
+
+import 'package:fix_fair/providers/web_review_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -192,7 +193,7 @@ class _AddReviewPageState extends State<AddReviewPage> {
         date: DateTime.now(),
       );
 
-      Provider.of<FileReviewProvider>(context, listen: false).addReview(review);
+      Provider.of<WebReviewProvider>(context, listen: false).addReview(review);
 
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(

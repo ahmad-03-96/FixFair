@@ -1,9 +1,9 @@
+import 'package:fix_fair/providers/web_review_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../l10n/app_localizations.dart';
 import '../models/review_model.dart';
-import '../providers/file_review_provider.dart';
 import '../providers/theme_provider.dart';
 
 class AdminReviewsPage extends StatelessWidget {
@@ -11,7 +11,7 @@ class AdminReviewsPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final fileReviewProvider = Provider.of<FileReviewProvider>(context);
+    final fileReviewProvider = Provider.of<WebReviewProvider>(context);
     final themeProvider = Provider.of<ThemeProvider>(context);
     final localizations = AppLocalizations.of(context);
     final textColor = themeProvider.getTextColor(context);
@@ -25,10 +25,10 @@ class AdminReviewsPage extends StatelessWidget {
           IconButton(
             icon: Icon(Icons.info),
             onPressed: () async {
-              final fileInfo = await Provider.of<FileReviewProvider>(
+              final fileInfo = await Provider.of<WebReviewProvider>(
                 context,
                 listen: false,
-              ).getFileInfo();
+              ).getDebugJson();
               showDialog(
                 context: context,
                 builder: (context) => AlertDialog(
@@ -37,13 +37,7 @@ class AdminReviewsPage extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text('Pfad: ${fileInfo['path']}'),
-                        Text('Datei: ${fileInfo['filePath']}'),
-                        Text('Existiert: ${fileInfo['exists']}'),
-                        Text('Größe: ${fileInfo['size']} bytes'),
-                        Text('Bewertungen: ${fileInfo['reviewCount']}'),
-                        if (fileInfo.containsKey('error'))
-                          Text('Fehler: ${fileInfo['error']}'),
+                        Text(fileInfo),
                       ],
                     ),
                   ),
@@ -131,7 +125,7 @@ class AdminReviewsPage extends StatelessWidget {
 
   Widget _buildReviewItem(
     Review review,
-    FileReviewProvider fileReviewProvider,
+    WebReviewProvider fileReviewProvider,
     BuildContext context,
     AppLocalizations localizations,
   ) {
@@ -218,7 +212,7 @@ class AdminReviewsPage extends StatelessWidget {
   }
 
   void _showClearDialog(BuildContext context, AppLocalizations localizations) {
-    final reviewProvider = Provider.of<FileReviewProvider>(
+    final reviewProvider = Provider.of<WebReviewProvider>(
       context,
       listen: false,
     );
