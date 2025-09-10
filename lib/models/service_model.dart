@@ -128,19 +128,6 @@ List<Service> getServices(BuildContext context) {
       ],
     ),
     Service(
-      id: 'renovierung',
-      title: (context) => localizations.renovierung,
-      description: (context) => localizations.renovierungDesc,
-      imageAsset: 'assets/animations/renovierung.riv',
-      features: (context) => [
-        '✓ ${AppLocalizations.of(context).renovierungDesc.split('.')[0]}',
-        '✓ Teilrenovierungen',
-        '✓ Bad-Renovierung',
-        '✓ Küchen-Renovierung',
-        '✓ Modernisierungsarbeiten',
-      ],
-    ),
-    Service(
       id: 'gartenarbeit',
       title: (context) => localizations.gartenarbeit,
       description: (context) => localizations.gartenarbeitDesc,

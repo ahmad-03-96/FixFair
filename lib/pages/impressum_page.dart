@@ -26,7 +26,9 @@ class ImpressumPage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(localizations.impressumTitle),
+        title: Text(
+          '${localizations.impressumTitle} - ${localizations.legalInfo}',
+        ),
         backgroundColor: themeProvider.getHeaderColor(context),
         foregroundColor: themeProvider.getHeaderTextColor(context),
         elevation: 4,
@@ -58,7 +60,7 @@ class ImpressumPage extends StatelessWidget {
                     // Titel
                     Center(
                       child: Text(
-                        localizations.impressumTitle,
+                        '${localizations.impressumTitle} - ${localizations.companyInfo}',
                         style: TextStyle(
                           fontSize: 28,
                           fontWeight: FontWeight.bold,
@@ -78,9 +80,9 @@ class ImpressumPage extends StatelessWidget {
                       color: textColor,
                     ),
 
-                    // Inhaber
+                    // Vertreten durch
                     _buildSection(
-                      title: localizations.imprintSection2,
+                      title: localizations.representedBy,
                       content: Text(
                         localizations.imprintContent2,
                         style: TextStyle(color: textColor),
@@ -130,9 +132,9 @@ class ImpressumPage extends StatelessWidget {
 
                     // Umsatzsteuer
                     _buildSection(
-                      title: localizations.imprintSection5,
+                      title: localizations.vatId,
                       content: Text(
-                        localizations.imprintContent5,
+                        '${localizations.vatInfo}\n${localizations.imprintContent5}',
                         style: TextStyle(color: textColor),
                       ),
                       color: textColor,
@@ -144,6 +146,74 @@ class ImpressumPage extends StatelessWidget {
                       content: Text(
                         localizations.imprintContent6,
                         style: TextStyle(color: textColor),
+                      ),
+                      color: textColor,
+                    ),
+
+                    // Streitschlichtung
+                    _buildSection(
+                      title: localizations.disputeResolution,
+                      content: Text(
+                        '${localizations.disputeContent} '
+                        'https://ec.europa.eu/consumers/odress.\n\n'
+                        '${localizations.disputeNotParticipate}',
+                        style: TextStyle(color: textColor),
+                      ),
+                      color: textColor,
+                    ),
+
+                    // Haftung für Inhalte
+                    _buildSection(
+                      title: 'Haftung für Inhalte:',
+                      content: Text(
+                        localizations.liabilityContent,
+                        style: TextStyle(color: textColor),
+                      ),
+                      color: textColor,
+                    ),
+
+                    // Urheberrecht
+                    _buildSection(
+                      title: 'Urheberrecht:',
+                      content: Text(
+                        localizations.copyrightInfo,
+                        style: TextStyle(color: textColor),
+                      ),
+                      color: textColor,
+                    ),
+
+                    // Bild- und Iconquellen
+                    _buildSection(
+                      title: localizations.imageSources,
+                      content: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            '${localizations.animationTools} (https://rive.app)',
+                            style: TextStyle(color: textColor),
+                          ),
+                          Text(
+                            localizations.svgSources,
+                            style: TextStyle(color: textColor),
+                          ),
+                          _buildLink(
+                            text:
+                                '• ${localizations.freepik} (https://www.freepik.com)',
+                            url: 'https://www.freepik.com',
+                            color: primaryColor,
+                          ),
+                          _buildLink(
+                            text:
+                                '• ${localizations.svgRepo} (https://www.svgrepo.com)',
+                            url: 'https://www.svgrepo.com',
+                            color: primaryColor,
+                          ),
+                          SizedBox(height: 8),
+                          Text(
+                            localizations.graphicLicense,
+                            style: TextStyle(color: textColor),
+                          ),
+                        ],
                       ),
                       color: textColor,
                     ),

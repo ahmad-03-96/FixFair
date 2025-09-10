@@ -17,7 +17,9 @@ class DatenschutzPage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(localizations.datenschutzTitle),
+        title: Text(
+          '${localizations.datenschutzTitle} - ${localizations.privacyPolicy}',
+        ),
         backgroundColor: themeProvider.getHeaderColor(context),
         foregroundColor: themeProvider.getHeaderTextColor(context),
         elevation: 4,
@@ -49,7 +51,7 @@ class DatenschutzPage extends StatelessWidget {
                     // Titel
                     Center(
                       child: Text(
-                        localizations.datenschutzTitle,
+                        '${localizations.datenschutzTitle} - ${localizations.privacyPolicy}',
                         style: TextStyle(
                           fontSize: 28,
                           fontWeight: FontWeight.bold,
@@ -59,9 +61,9 @@ class DatenschutzPage extends StatelessWidget {
                     ),
                     const SizedBox(height: 30),
 
-                    // Einleitung
+                    // Datenschutz auf einen Blick
                     _buildSection(
-                      title: localizations.privacySection1,
+                      title: localizations.privacyOverview,
                       content: Text(
                         localizations.privacyContent1,
                         style: TextStyle(color: textColor),
@@ -69,9 +71,9 @@ class DatenschutzPage extends StatelessWidget {
                       color: textColor,
                     ),
 
-                    // Allgemeine Hinweise
+                    // Datenerfassung auf dieser Website
                     _buildSection(
-                      title: localizations.privacySection2,
+                      title: localizations.dataCollection,
                       content: Text(
                         localizations.privacyContent2,
                         style: TextStyle(color: textColor),
@@ -79,9 +81,9 @@ class DatenschutzPage extends StatelessWidget {
                       color: textColor,
                     ),
 
-                    // Datenerfassung
+                    // Wie erfassen wir Ihre Daten?
                     _buildSection(
-                      title: localizations.privacySection3,
+                      title: localizations.howWeCollect,
                       content: Text(
                         localizations.privacyContent3,
                         style: TextStyle(color: textColor),
@@ -91,7 +93,7 @@ class DatenschutzPage extends StatelessWidget {
 
                     // Analyse-Tools
                     _buildSection(
-                      title: localizations.privacySection4,
+                      title: localizations.analyticsTools,
                       content: Text(
                         localizations.privacyContent4,
                         style: TextStyle(color: textColor),
@@ -101,7 +103,7 @@ class DatenschutzPage extends StatelessWidget {
 
                     // Kontaktdaten
                     _buildSection(
-                      title: localizations.privacySection5,
+                      title: localizations.responsibleParty,
                       content: Text(
                         localizations.privacyContent5,
                         style: TextStyle(color: textColor),
@@ -111,9 +113,42 @@ class DatenschutzPage extends StatelessWidget {
 
                     // Widerrufsrecht
                     _buildSection(
-                      title: localizations.privacySection6,
+                      title: localizations.revokeConsent,
                       content: Text(
                         localizations.privacyContent6,
+                        style: TextStyle(color: textColor),
+                      ),
+                      color: textColor,
+                    ),
+
+                    // Allgemeine Hinweise
+                    _buildSection(
+                      title: localizations.generalInfo,
+                      content: Text(
+                        'Datenschutz\n\n${localizations.privacyContent2}',
+                        style: TextStyle(color: textColor),
+                      ),
+                      color: textColor,
+                    ),
+
+                    // Speicherdauer
+                    _buildSection(
+                      title: localizations.storageDuration,
+                      content: Text(
+                        'Soweit innerhalb dieser Datenschutzerklärung keine speziellere Speicherdauer genannt wurde, '
+                        'verbleiben Ihre personenbezogenen Daten bei uns, bis der Zweck für die Datenverarbeitung '
+                        'entfällt.',
+                        style: TextStyle(color: textColor),
+                      ),
+                      color: textColor,
+                    ),
+
+                    // SSL-Verschlüsselung
+                    _buildSection(
+                      title: localizations.sslEncryption,
+                      content: Text(
+                        'Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte '
+                        'eine SSL- bzw. TLS-Verschlüsselung.',
                         style: TextStyle(color: textColor),
                       ),
                       color: textColor,

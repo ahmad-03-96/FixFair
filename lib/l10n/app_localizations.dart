@@ -174,19 +174,6 @@ class AppLocalizations {
       'imprintSection6': 'Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:',
       'imprintContent6': 'Shehadeh Ayman\nQuellhof Straße 26\n34127 Kassel',
 
-      // Add Review Page
-      'reviewTitle': 'Ihre Bewertung',
-      'reviewRatingQuestion': 'Wie viele Sterne vergeben Sie?',
-      'reviewNameLabel': 'Ihr Name',
-      'reviewNameError': 'Bitte geben Sie Ihren Namen ein',
-      'reviewServiceLabel': 'Art der Dienstleistung (z.B. Umzug, Renovierung)',
-      'reviewServiceError': 'Bitte geben Sie die Dienstleistung an',
-      'reviewCommentLabel': 'Ihre Bewertung',
-      'reviewCommentError': 'Bitte geben Sie eine Bewertung ein',
-      'reviewMinLengthError': 'Bitte schreiben Sie mindestens 10 Zeichen',
-      'reviewSubmitButton': 'Bewertung absenden',
-      'reviewThankYou': 'Vielen Dank für Ihre Bewertung!',
-
       // Trust Details Page
       'trustPoint1Title': 'Zertifizierte Qualität',
       'trustPoint1Desc':
@@ -208,18 +195,59 @@ class AppLocalizations {
           'Kontaktieren Sie uns noch heute für ein unverbindliches Angebot!',
       'trustRequestButton': 'Jetzt Angebot anfordern',
 
-      // Admin Reviews Page
-      'adminStatsReviews': 'Bewertungen',
-      'adminStatsAverage': 'Durchschnitt',
-      'adminStatsPending': 'Ausstehend',
-      'adminDeleteConfirm': 'Bewertung löschen?',
-      'adminDeleteContent': 'Soll diese Bewertung wirklich gelöscht werden?',
-      'adminCancel': 'Abbrechen',
-      'adminDelete': 'Löschen',
-      'adminClearAll': 'Alle Bewertungen löschen?',
-      'adminClearContent': 'Diese Aktion kann nicht rückgängig gemacht werden.',
-      'adminDeleted': 'Bewertung gelöscht',
-      'adminAllDeleted': 'Alle Bewertungen wurden gelöscht',
+      // NEUE ÜBERSETZUNGEN FÜR CUSTOMERS DETAIL PAGE
+      'googleReviews': 'Google Bewertungen',
+      'rateUsGoogle': 'Bewerten Sie uns auf Google',
+      'rateDescription': 'Helfen Sie anderen Kunden bei ihrer Entscheidung',
+      'rateNowButton': 'Jetzt bewerten auf Google',
+      'supportEmail': 'E-Mail für Support: support@fix-fair.de',
+      'reviewPrompt': 'Teilen Sie Ihre Erfahrungen mit uns',
+      'customerTestimonials': 'Kundenbewertungen',
+      'satisfiedClients': 'Zufriedene Kunden in Kassel',
+
+      // NEUE ÜBERSETZUNGEN FÜR IMPRESSUM
+      'representedBy': 'Vertreten durch:',
+      'vatId': 'Umsatzsteuer-ID:',
+      'vatInfo':
+          'Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz:',
+      'disputeResolution': 'Streitschlichtung:',
+      'disputeContent':
+          'Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit',
+      'disputeNotParticipate':
+          'Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.',
+      'liabilityContent':
+          'Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich.',
+      'copyrightInfo':
+          'Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht.',
+      'imageSources': 'Bild- und Iconquellen:',
+      'animationTools': 'Animationen erstellt mit Rive',
+      'svgSources': 'SVG-Icons von:',
+      'graphicLicense':
+          'Alle verwendeten Grafiken und Icons stehen unter freien Lizenzen zur Verfügung oder wurden eigenständig erstellt.',
+      'freepik': 'Freepik',
+      'svgRepo': 'SVG Repo',
+      'legalInfo': 'Rechtliche Informationen',
+      'companyInfo': 'Firmeninformationen',
+
+      // NEUE ÜBERSETZUNGEN FÜR DATENSCHUTZ
+      'privacyOverview': 'Datenschutz auf einen Blick',
+      'dataCollection': 'Datenerfassung auf dieser Website',
+      'howWeCollect': 'Wie erfassen wir Ihre Daten?',
+      'dataUsage': 'Wofür nutzen wir Ihre Daten?',
+      'yourRights': 'Welche Rechte haben Sie bezüglich Ihrer Daten?',
+      'analyticsTools': 'Analyse-Tools und Tools von Drittanbietern',
+      'hostingProvider': 'Hosting',
+      'generalInfo': 'Allgemeine Hinweise und Pflichtinformationen',
+      'responsibleParty': 'Hinweis zur verantwortlichen Stelle',
+      'storageDuration': 'Speicherdauer',
+      'revokeConsent': 'Widerruf Ihrer Einwilligung zur Datenverarbeitung',
+      'objectionRight': 'Widerspruchsrecht gegen die Datenerhebung',
+      'complaintRight': 'Beschwerderecht bei der zuständigen Aufsichtsbehörde',
+      'dataPortability': 'Recht auf Datenübertragbarkeit',
+      'sslEncryption': 'SSL- bzw. TLS-Verschlüsselung',
+      'paymentEncryption': 'Verschlüsselter Zahlungsverkehr auf dieser Website',
+      'dataSecurity': 'Datensicherheit',
+      'privacyPolicy': 'Datenschutzerklärung',
     },
     'en': {
       'appTitle': 'Fix & Fair',
@@ -391,19 +419,6 @@ class AppLocalizations {
           'Responsible for content according to § 55 Abs. 2 RStV:',
       'imprintContent6': 'Shehadeh Ayman\nQuellhof Street 26\n34127 Kassel',
 
-      // Add Review Page - English
-      'reviewTitle': 'Your Review',
-      'reviewRatingQuestion': 'How many stars do you give?',
-      'reviewNameLabel': 'Your Name',
-      'reviewNameError': 'Please enter your name',
-      'reviewServiceLabel': 'Type of service (e.g. moving, renovation)',
-      'reviewServiceError': 'Please specify the service',
-      'reviewCommentLabel': 'Your Review',
-      'reviewCommentError': 'Please enter a review',
-      'reviewMinLengthError': 'Please write at least 10 characters',
-      'reviewSubmitButton': 'Submit Review',
-      'reviewThankYou': 'Thank you for your review!',
-
       // Trust Details Page - English
       'trustPoint1Title': 'Certified Quality',
       'trustPoint1Desc':
@@ -424,18 +439,60 @@ class AppLocalizations {
       'trustReadySubtitle': 'Contact us today for a non-binding offer!',
       'trustRequestButton': 'Request Quote Now',
 
-      // Admin Reviews Page - English
-      'adminStatsReviews': 'Reviews',
-      'adminStatsAverage': 'Average',
-      'adminStatsPending': 'Pending',
-      'adminDeleteConfirm': 'Delete review?',
-      'adminDeleteContent': 'Should this review really be deleted?',
-      'adminCancel': 'Cancel',
-      'adminDelete': 'Delete',
-      'adminClearAll': 'Delete all reviews?',
-      'adminClearContent': 'This action cannot be undone.',
-      'adminDeleted': 'Review deleted',
-      'adminAllDeleted': 'All reviews have been deleted',
+      // NEW TRANSLATIONS FOR CUSTOMERS DETAIL PAGE
+      'googleReviews': 'Google Reviews',
+      'rateUsGoogle': 'Rate us on Google',
+      'rateDescription': 'Help other customers with their decision',
+      'rateNowButton': 'Rate now on Google',
+      'supportEmail': 'Support email: support@fix-fair.de',
+      'reviewPrompt': 'Share your experiences with us',
+      'customerTestimonials': 'Customer Testimonials',
+      'satisfiedClients': 'Satisfied Clients in Kassel',
+
+      // NEW TRANSLATIONS FOR IMPRINT
+      'representedBy': 'Represented by:',
+      'vatId': 'VAT ID:',
+      'vatInfo':
+          'Value added tax identification number according to §27a Value Added Tax Act:',
+      'disputeResolution': 'Dispute Resolution:',
+      'disputeContent':
+          'The European Commission provides a platform for online dispute resolution (OS)',
+      'disputeNotParticipate':
+          'We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.',
+      'liabilityContent':
+          'As a service provider, we are responsible for our own content on these pages in accordance with general laws pursuant to Section 7 (1) of the German Telemedia Act (TMG).',
+      'copyrightInfo':
+          'The contents and works created by the site operators on these pages are subject to German copyright law.',
+      'imageSources': 'Image and Icon Sources:',
+      'animationTools': 'Animations created with Rive',
+      'svgSources': 'SVG Icons from:',
+      'graphicLicense':
+          'All graphics and icons used are available under free licenses or were created independently.',
+      'freepik': 'Freepik',
+      'svgRepo': 'SVG Repo',
+      'legalInfo': 'Legal Information',
+      'companyInfo': 'Company Information',
+
+      // NEW TRANSLATIONS FOR PRIVACY
+      'privacyOverview': 'Data Protection at a Glance',
+      'dataCollection': 'Data Collection on this Website',
+      'howWeCollect': 'How do we collect your data?',
+      'dataUsage': 'What do we use your data for?',
+      'yourRights': 'What rights do you have regarding your data?',
+      'analyticsTools': 'Analytics Tools and Third-Party Tools',
+      'hostingProvider': 'Hosting',
+      'generalInfo': 'General Information and Mandatory Information',
+      'responsibleParty': 'Note on the Responsible Party',
+      'storageDuration': 'Storage Duration',
+      'revokeConsent': 'Revocation of Your Consent to Data Processing',
+      'objectionRight': 'Right to Object to Data Collection in Special Cases',
+      'complaintRight':
+          'Right to Lodge a Complaint with the Competent Supervisory Authority',
+      'dataPortability': 'Right to Data Portability',
+      'sslEncryption': 'SSL or TLS Encryption',
+      'paymentEncryption': 'Encrypted Payment Transactions on this Website',
+      'dataSecurity': 'Data Security',
+      'privacyPolicy': 'Privacy Policy',
     },
     'ar': {
       'appTitle': 'فيكس آند فير',
@@ -604,19 +661,6 @@ class AppLocalizations {
       'imprintSection6': 'المسؤول عن المحتوى وفقًا لـ § 55 Abs. 2 RStV:',
       'imprintContent6': 'شحادة أيمن\nشارع كويلهوف 26\n34127 كاسل',
 
-      // Add Review Page - Arabic
-      'reviewTitle': 'تقييمك',
-      'reviewRatingQuestion': 'كم نجمة تمنح؟',
-      'reviewNameLabel': 'اسمك',
-      'reviewNameError': 'يرجى إدخال اسمك',
-      'reviewServiceLabel': 'نوع الخدمة (مثل نقل، تجديد)',
-      'reviewServiceError': 'يرجى تحديد الخدمة',
-      'reviewCommentLabel': 'تقييمك',
-      'reviewCommentError': 'يرجى إدخال تقييم',
-      'reviewMinLengthError': 'يرجى كتابة 10 أحرف على الأقل',
-      'reviewSubmitButton': 'إرسال التقييم',
-      'reviewThankYou': 'شكرًا لك على تقييمك!',
-
       // Trust Details Page - Arabic
       'trustPoint1Title': 'جودة معتمدة',
       'trustPoint1Desc':
@@ -637,18 +681,57 @@ class AppLocalizations {
       'trustReadySubtitle': 'اتصل بنا اليوم للحصول على عرض غير ملزم!',
       'trustRequestButton': 'اطلب عرض سعر الآن',
 
-      // Admin Reviews Page - Arabic
-      'adminStatsReviews': 'التقييمات',
-      'adminStatsAverage': 'المتوسط',
-      'adminStatsPending': 'قيد الانتظار',
-      'adminDeleteConfirm': 'حذف التقييم؟',
-      'adminDeleteContent': 'هل تريد حقًا حذف هذا التقييم؟',
-      'adminCancel': 'إلغاء',
-      'adminDelete': 'حذف',
-      'adminClearAll': 'حذف جميع التقييمات؟',
-      'adminClearContent': 'لا يمكن التراجع عن هذا الإجراء.',
-      'adminDeleted': 'تم حذف التقييم',
-      'adminAllDeleted': 'تم حذف جميع التقييمات',
+      // ARABISCHE ÜBERSETZUNGEN
+      'googleReviews': 'تقييمات جوجل',
+      'rateUsGoogle': 'قيمنا على جوجل',
+      'rateDescription': 'ساعد العملاء الآخرين في اتخاذ قرارهم',
+      'rateNowButton': 'قيم الآن على جوجل',
+      'supportEmail': 'البريد الإلكتروني للدعم: support@fix-fair.de',
+      'reviewPrompt': 'شاركنا تجربتك',
+      'customerTestimonials': 'شهادات العملاء',
+      'satisfiedClients': 'عملاء راضون في كاسل',
+
+      'representedBy': 'يمثلها:',
+      'vatId': 'رقم ضريبة القيمة المضافة:',
+      'vatInfo':
+          'رقم تعريف ضريبة القيمة المضافة وفقًا للقسم 27a من قانون ضريبة القيمة المضافة:',
+      'disputeResolution': 'تسوية المنازعات:',
+      'disputeContent':
+          'توفر المفوضية الأوروبية منصة لتسوية المنازعات عبر الإنترنت (OS)',
+      'disputeNotParticipate':
+          'لسنا على استعداد أو ملزمين للمشاركة في إجراءات تسوية المنازعات أمام هيئة تحكيم المستهلك.',
+      'liabilityContent':
+          'كمزود خدمة، نحن مسؤولون عن المحتوى الخاص بنا على هذه الصفحات وفقًا للقوانين العامة بموجب القسم 7 (1) من قانون الوسائط الألمانية (TMG).',
+      'copyrightInfo':
+          'المحتويات والأعمال التي أنشأها مشغلو الموقع على هذه الصفحات تخضع لقانون حقوق النشر الألماني.',
+      'imageSources': 'مصادر الصور والأيقونات:',
+      'animationTools': 'الرسوم المتحركة تم إنشاؤها باستخدام Rive',
+      'svgSources': 'أيقونات SVG من:',
+      'graphicLicense':
+          'جميع الرسومات والأيقونات المستخدمة متاحة بموجب تراخيص مجانية أو تم إنشاؤها بشكل مستقل.',
+      'freepik': 'Freepik',
+      'svgRepo': 'SVG Repo',
+      'legalInfo': 'المعلومات القانونية',
+      'companyInfo': 'معلومات الشركة',
+
+      'privacyOverview': 'نظرة عامة على حماية البيانات',
+      'dataCollection': 'جمع البيانات على هذا الموقع',
+      'howWeCollect': 'كيف نجمع بياناتك؟',
+      'dataUsage': 'لماذا نستخدم بياناتك؟',
+      'yourRights': 'ما هي حقوقك فيما يتعلق ببياناتك؟',
+      'analyticsTools': 'أدوات التحليل وأدوات الطرف الثالث',
+      'hostingProvider': 'الاستضافة',
+      'generalInfo': 'معلومات عامة وإلزامية',
+      'responsibleParty': 'ملاحظة حول الجهة المسؤولة',
+      'storageDuration': 'مدة التخزين',
+      'revokeConsent': 'سحب موافقتك على معالجة البيانات',
+      'objectionRight': 'حق الاعتراض على جمع البيانات في حالات خاصة',
+      'complaintRight': 'حق تقديم شكوى إلى السلطة الإشرافية المختصة',
+      'dataPortability': 'حق نقل البيانات',
+      'sslEncryption': 'تشفير SSL أو TLS',
+      'paymentEncryption': 'معاملات الدفع المشفرة على هذا الموقع',
+      'dataSecurity': 'أمان البيانات',
+      'privacyPolicy': 'سياسة الخصوصية',
     },
     'tr': {
       'appTitle': 'Fix & Fair',
@@ -817,19 +900,6 @@ class AppLocalizations {
       'imprintSection6': '§ 55 Abs. 2 RStV\'ye göre içerikten sorumlu:',
       'imprintContent6': 'Shehadeh Ayman\nQuellhof Caddesi 26\n34127 Kassel',
 
-      // Add Review Page - Turkish
-      'reviewTitle': 'Değerlendirmeniz',
-      'reviewRatingQuestion': 'Kaç yıldız veriyorsunuz?',
-      'reviewNameLabel': 'Adınız',
-      'reviewNameError': 'Lütfen adınızı girin',
-      'reviewServiceLabel': 'Hizmet türü (ör. taşınma, yenileme)',
-      'reviewServiceError': 'Lütfen hizmeti belirtin',
-      'reviewCommentLabel': 'Değerlendirmeniz',
-      'reviewCommentError': 'Lütfen bir değerlendirme girin',
-      'reviewMinLengthError': 'Lütfen en az 10 karakter yazın',
-      'reviewSubmitButton': 'Değerlendirmeyi Gönder',
-      'reviewThankYou': 'Değerlendirmeniz için teşekkür ederiz!',
-
       // Trust Details Page - Turkish
       'trustPoint1Title': 'Sertifikalı Kalite',
       'trustPoint1Desc':
@@ -851,18 +921,57 @@ class AppLocalizations {
           'Bağlayıcı olmayan bir teklif için bugün bize ulaşın!',
       'trustRequestButton': 'Şimdi Teklif İste',
 
-      // Admin Reviews Page - Turkish
-      'adminStatsReviews': 'Değerlendirmeler',
-      'adminStatsAverage': 'Ortalama',
-      'adminStatsPending': 'Beklemede',
-      'adminDeleteConfirm': 'Değerlendirmeyi sil?',
-      'adminDeleteContent': 'Bu değerlendirme gerçekten silinsin mi?',
-      'adminCancel': 'İptal',
-      'adminDelete': 'Sil',
-      'adminClearAll': 'Tüm değerlendirmeleri sil?',
-      'adminClearContent': 'Bu işlem geri alınamaz.',
-      'adminDeleted': 'Değerlendirme silindi',
-      'adminAllDeleted': 'Tüm değerlendirmeler silindi',
+      // TÜRKÇE ÇEVİRİLER
+      'googleReviews': 'Google Yorumları',
+      'rateUsGoogle': 'Bizi Google\'da Değerlendirin',
+      'rateDescription': 'Diğer müşterilere karar vermelerinde yardımcı olun',
+      'rateNowButton': 'Şimdi Google\'da Değerlendir',
+      'supportEmail': 'Destek e-posta: support@fix-fair.de',
+      'reviewPrompt': 'Deneyimlerinizi bizimle paylaşın',
+      'customerTestimonials': 'Müşteri Yorumları',
+      'satisfiedClients': 'Kassel\'de Memnun Müşteriler',
+
+      'representedBy': 'Temsil eden:',
+      'vatId': 'KDV No:',
+      'vatInfo':
+          '§27a Katma Değer Vergisi Yasası uyarınca katma değer vergisi kimlik numarası:',
+      'disputeResolution': 'Uyuşmazlık Çözümü:',
+      'disputeContent':
+          'Avrupa Komisyonu çevrimiçi uyuşmazlık çözümü (OS) için bir platform sağlar',
+      'disputeNotParticipate':
+          'Bir tüketici tahkim kurulu önünde uyuşmazlık çözümü prosedürlerine katılmaya hazır veya zorunlu değiliz.',
+      'liabilityContent':
+          'Bir hizmet sağlayıcı olarak, Alman Telemedia Yasası\'nın (TMG) 7(1) Maddesi uyarınca bu sayfalardaki kendi içeriklerimizden genel yasalara göre sorumluyuz.',
+      'copyrightInfo':
+          'Site operatörleri tarafından bu sayfalarda oluşturulan içerikler ve eserler Alman telif hakkı yasasına tabidir.',
+      'imageSources': 'Görüntü ve Simge Kaynakları:',
+      'animationTools': 'Rive ile oluşturulan animasyonlar',
+      'svgSources': 'SVG Simgeleri:',
+      'graphicLicense':
+          'Kullanılan tüm grafikler ve simgeler ücretsiz lisanslar altında mevcuttur veya bağımsız olarak oluşturulmuştur.',
+      'freepik': 'Freepik',
+      'svgRepo': 'SVG Repo',
+      'legalInfo': 'Yasal Bilgiler',
+      'companyInfo': 'Şirket Bilgileri',
+
+      'privacyOverview': 'Veri Koruma Genel Bakış',
+      'dataCollection': 'Bu Web Sitesinde Veri Toplama',
+      'howWeCollect': 'Verilerinizi nasıl topluyoruz?',
+      'dataUsage': 'Verilerinizi ne için kullanıyoruz?',
+      'yourRights': 'Verilerinizle ilgili hangi haklara sahipsiniz?',
+      'analyticsTools': 'Analitik Araçlar ve Üçüncü Taraf Araçlar',
+      'hostingProvider': 'Barındırma',
+      'generalInfo': 'Genel Bilgiler ve Zorunlu Bilgiler',
+      'responsibleParty': 'Sorumlu Taraf Hakkında Not',
+      'storageDuration': 'Saklama Süresi',
+      'revokeConsent': 'Veri İşleme İzninizi Geri Çekme',
+      'objectionRight': 'Özel Durumlarda Veri Toplamaya İtiraz Hakkı',
+      'complaintRight': 'Yetkili Denetim Otoritesine Şikayette Bulunma Hakkı',
+      'dataPortability': 'Veri Taşınabilirliği Hakkı',
+      'sslEncryption': 'SSL veya TLS Şifreleme',
+      'paymentEncryption': 'Bu Web Sitesinde Şifreli Ödeme İşlemleri',
+      'dataSecurity': 'Veri Güvenliği',
+      'privacyPolicy': 'Gizlilik Politikası',
     },
     'ru': {
       'appTitle': 'Fix & Fair',
@@ -1034,19 +1143,6 @@ class AppLocalizations {
           'Ответственный за содержание согласно § 55 Abs. 2 RStV:',
       'imprintContent6': 'Шехаде Айман\nУлица Квельхоф 26\n34127 Кассель',
 
-      // Add Review Page - Russian
-      'reviewTitle': 'Ваш отзыв',
-      'reviewRatingQuestion': 'Сколько звезд вы даете?',
-      'reviewNameLabel': 'Ваше имя',
-      'reviewNameError': 'Пожалуйста, введите ваше имя',
-      'reviewServiceLabel': 'Тип услуги (например, переезд, ремонт)',
-      'reviewServiceError': 'Пожалуйста, укажите услугу',
-      'reviewCommentLabel': 'Ваш отзыв',
-      'reviewCommentError': 'Пожалуйста, введите отзыв',
-      'reviewMinLengthError': 'Пожалуйста, напишите не менее 10 символов',
-      'reviewSubmitButton': 'Отправить отзыв',
-      'reviewThankYou': 'Спасибо за ваш отзыв!',
-
       // Trust Details Page - Russian
       'trustPoint1Title': 'Сертифицированное качество',
       'trustPoint1Desc':
@@ -1068,18 +1164,59 @@ class AppLocalizations {
           'Свяжитесь с нами сегодня для получения бесплатного предложения!',
       'trustRequestButton': 'Запросить предложение сейчас',
 
-      // Admin Reviews Page - Russian
-      'adminStatsReviews': 'Отзывы',
-      'adminStatsAverage': 'Среднее',
-      'adminStatsPending': 'В ожидании',
-      'adminDeleteConfirm': 'Удалить отзыв?',
-      'adminDeleteContent': 'Действительно удалить этот отзыв?',
-      'adminCancel': 'Отмена',
-      'adminDelete': 'Удалить',
-      'adminClearAll': 'Удалить все отзывы?',
-      'adminClearContent': 'Это действие нельзя отменить.',
-      'adminDeleted': 'Отзыв удален',
-      'adminAllDeleted': 'Все отзывы удалены',
+      // НОВЫЕ ПЕРЕВОДЫ ДЛЯ СТРАНИЦЫ ДЕТАЛЕЙ КЛИЕНТА
+      'googleReviews': 'Отзывы на Google',
+      'rateUsGoogle': 'Оцените нас на Google',
+      'rateDescription': 'Помогите другим клиентам сделать выбор',
+      'rateNowButton': 'Оцените нас на Google сейчас',
+      'supportEmail': 'Электронная почта поддержки: support@fix-fair.de',
+      'reviewPrompt': 'Поделитесь своими впечатлениями с нами',
+      'customerTestimonials': 'Отзывы клиентов',
+      'satisfiedClients': 'Довольные клиенты в Касселе',
+
+      // НОВЫЕ ПЕРЕВОДЫ ДЛЯ ОТПЕЧАТКА
+      'representedBy': 'Представляет:',
+      'vatId': 'Номер НДС:',
+      'vatInfo':
+          'Идентификационный номер НДС согласно §27a Закона о налоге на добавленную стоимость:',
+      'disputeResolution': 'Решение споров:',
+      'disputeContent':
+          'Европейская комиссия предоставляет платформу для онлайн-разрешения споров (OS)',
+      'disputeNotParticipate':
+          'Мы не готовы и не обязаны участвовать в процедурах разрешения споров перед арбитражными органами для потребителей.',
+      'liabilityContent':
+          'Как поставщик услуг, мы несем ответственность за собственное содержание на этих страницах в соответствии с общими законами согласно разделу 7 (1) Закона о телемедийных услугах Германии (TMG).',
+      'copyrightInfo':
+          'Содержимое и работы, созданные операторами сайта на этих страницах, защищены немецким законодательством об авторском праве.',
+      'imageSources': 'Источники изображений и иконок:',
+      'animationTools': 'Анимации, созданные с помощью Rive',
+      'svgSources': 'SVG иконки от:',
+      'graphicLicense':
+          'Все графические элементы и иконки, используемые на сайте, доступны по свободным лицензиям или были созданы независимо.',
+      'freepik': 'Freepik',
+      'svgRepo': 'SVG Repo',
+      'legalInfo': 'Юридическая информация',
+      'companyInfo': 'Информация о компании',
+
+      // НОВЫЕ ПЕРЕВОДЫ ДЛЯ ПОЛИТИКИ КОНФИДЕНЦИАЛЬНОСТИ
+      'privacyOverview': 'Защита данных в кратком изложении',
+      'dataCollection': 'Сбор данных на этом сайте',
+      'howWeCollect': 'Как мы собираем ваши данные?',
+      'dataUsage': 'Для чего мы используем ваши данные?',
+      'yourRights': 'Какие права у вас есть относительно ваших данных?',
+      'analyticsTools': 'Инструменты аналитики и сторонние инструменты',
+      'hostingProvider': 'Хостинг',
+      'generalInfo': 'Общая информация и обязательная информация',
+      'responsibleParty': 'Примечание о ответственной стороне',
+      'storageDuration': 'Продолжительность хранения',
+      'revokeConsent': 'Отзыв вашего согласия на обработку данных',
+      'objectionRight': 'Право возражать против сбора данных в особых случаях',
+      'complaintRight': 'Право на подачу жалобы в компетентный орган',
+      'dataPortability': 'Право на переносимость данных',
+      'sslEncryption': 'SSL или TLS шифрование',
+      'paymentEncryption': 'Зашифрованные платежи на этом сайте',
+      'dataSecurity': 'Безопасность данных',
+      'privacyPolicy': 'Политика конфиденциальности',
     },
     'uk': {
       'appTitle': 'Fix & Fair',
@@ -1251,19 +1388,6 @@ class AppLocalizations {
       'imprintSection6': 'Відповідальний за зміст згідно § 55 Abs. 2 RStV:',
       'imprintContent6': 'Шехаде Айман\nВулиця Квельхоф 26\n34127 Кассель',
 
-      // Add Review Page - Ukrainian
-      'reviewTitle': 'Ваш відгук',
-      'reviewRatingQuestion': 'Скільки зірок ви даєте?',
-      'reviewNameLabel': 'Ваше ім\'я',
-      'reviewNameError': 'Будь ласка, введіть ваше ім\'я',
-      'reviewServiceLabel': 'Тип послуги (наприклад, переїзд, ремонт)',
-      'reviewServiceError': 'Будь ласка, вкажіть послугу',
-      'reviewCommentLabel': 'Ваш відгук',
-      'reviewCommentError': 'Будь ласка, введіть відгук',
-      'reviewMinLengthError': 'Будь ласка, напишіть не менше 10 символів',
-      'reviewSubmitButton': 'Надіслати відгук',
-      'reviewThankYou': 'Дякуємо за ваш відгук!',
-
       // Trust Details Page - Ukrainian
       'trustPoint1Title': 'Сертифікована якість',
       'trustPoint1Desc':
@@ -1285,18 +1409,62 @@ class AppLocalizations {
           'Зв\'яжіться з нами сьогодні для отримання беззв\'язкового пропозиції!',
       'trustRequestButton': 'Запросити пропозицію зараз',
 
-      // Admin Reviews Page - Ukrainian
-      'adminStatsReviews': 'Відгуки',
-      'adminStatsAverage': 'Середнє',
-      'adminStatsPending': 'В очікуванні',
-      'adminDeleteConfirm': 'Видалити відгук?',
-      'adminDeleteContent': 'Справді видалити цей відгук?',
-      'adminCancel': 'Скасувати',
-      'adminDelete': 'Видалити',
-      'adminClearAll': 'Видалити всі відгуки?',
-      'adminClearContent': 'Цю дію не можна скасувати.',
-      'adminDeleted': 'Відгук видалено',
-      'adminAllDeleted': 'Усі відгуки видалено',
+      // ... існуючі англійські переклади ...
+      // НОВІ ПЕРЕКЛАДИ ДЛЯ СТОРІНКИ ДЕТАЛІВ КЛІЄНТА
+      'googleReviews': 'Відгуки Google',
+      'rateUsGoogle': 'Оцініть нас у Google',
+      'rateDescription': 'Допоможіть іншим клієнтам у виборі',
+      'rateNowButton': 'Оцініть нас на Google зараз',
+      'supportEmail': 'Електронна пошта підтримки: support@fix-fair.de',
+      'reviewPrompt': 'Поділіться своїм досвідом з нами',
+      'customerTestimonials': 'Відгуки клієнтів',
+      'satisfiedClients': 'Задоволені клієнти в Касселі',
+
+      // НОВІ ПЕРЕКЛАДИ ДЛЯ ІМПРЕСУМУ
+      'representedBy': 'Представляє:',
+      'vatId': 'Номер ПДВ:',
+      'vatInfo':
+          'Ідентифікаційний номер ПДВ відповідно до §27a Закону про податок на додану вартість:',
+      'disputeResolution': 'Розв’язання суперечок:',
+      'disputeContent':
+          'Європейська Комісія надає платформу для онлайн-рішення суперечок (OS)',
+      'disputeNotParticipate':
+          'Ми не готові і не зобов’язані брати участь у процедурах вирішення суперечок перед споживчим арбітражем.',
+      'liabilityContent':
+          'Як постачальник послуг, ми несемо відповідальність за власний контент на цих сторінках відповідно до загальних законів згідно з § 7 (1) Закону про телемедійні послуги Німеччини (TMG).',
+      'copyrightInfo':
+          'Контент і роботи, створені операторами сайту на цих сторінках, підлягають німецькому законодавству про авторське право.',
+      'imageSources': 'Джерела зображень і іконок:',
+      'animationTools': 'Анімації створені за допомогою Rive',
+      'svgSources': 'SVG іконки від:',
+      'graphicLicense':
+          'Усі графічні елементи та іконки, що використовуються, доступні за вільними ліцензіями або були створені самостійно.',
+      'freepik': 'Freepik',
+      'svgRepo': 'SVG Repo',
+      'legalInfo': 'Юридична інформація',
+      'companyInfo': 'Інформація про компанію',
+
+      // НОВІ ПЕРЕКЛАДИ ДЛЯ ПОЛІТИКИ КОНФІДЕНЦІЙНОСТІ
+      'privacyOverview': 'Огляд захисту даних',
+      'dataCollection': 'Збір даних на цьому сайті',
+      'howWeCollect': 'Як ми збираємо ваші дані?',
+      'dataUsage': 'Для чого ми використовуємо ваші дані?',
+      'yourRights': 'Які права ви маєте щодо своїх даних?',
+      'analyticsTools': 'Інструменти аналітики та сторонні інструменти',
+      'hostingProvider': 'Хостинг',
+      'generalInfo': 'Загальна інформація та обов’язкова інформація',
+      'responsibleParty': 'Примітка щодо відповідальної сторони',
+      'storageDuration': 'Тривалість зберігання',
+      'revokeConsent': 'Відкликання вашої згоди на обробку даних',
+      'objectionRight':
+          'Право на заперечення проти збору даних у особливих випадках',
+      'complaintRight':
+          'Право подати скаргу до компетентного наглядового органу',
+      'dataPortability': 'Право на переносимість даних',
+      'sslEncryption': 'Шифрування SSL або TLS',
+      'paymentEncryption': 'Зашифровані платіжні транзакції на цьому сайті',
+      'dataSecurity': 'Безпека даних',
+      'privacyPolicy': 'Політика конфіденційності',
     },
   };
 
@@ -1674,6 +1842,93 @@ class AppLocalizations {
   String get adminDeleted => _getText('adminDeleted');
 
   String get adminAllDeleted => _getText('adminAllDeleted');
+
+  // NEUE GETTER FÜR CUSTOMERS PAGE
+  String get googleReviews => _getText('googleReviews');
+
+  String get rateUsGoogle => _getText('rateUsGoogle');
+
+  String get rateDescription => _getText('rateDescription');
+
+  String get rateNowButton => _getText('rateNowButton');
+
+  String get supportEmail => _getText('supportEmail');
+
+  String get reviewPrompt => _getText('reviewPrompt');
+
+  String get customerTestimonials => _getText('customerTestimonials');
+
+  String get satisfiedClients => _getText('satisfiedClients');
+
+  // NEUE GETTER FÜR IMPRESSUM
+  String get representedBy => _getText('representedBy');
+
+  String get vatId => _getText('vatId');
+
+  String get vatInfo => _getText('vatInfo');
+
+  String get disputeResolution => _getText('disputeResolution');
+
+  String get disputeContent => _getText('disputeContent');
+
+  String get disputeNotParticipate => _getText('disputeNotParticipate');
+
+  String get liabilityContent => _getText('liabilityContent');
+
+  String get copyrightInfo => _getText('copyrightInfo');
+
+  String get imageSources => _getText('imageSources');
+
+  String get animationTools => _getText('animationTools');
+
+  String get svgSources => _getText('svgSources');
+
+  String get graphicLicense => _getText('graphicLicense');
+
+  String get freepik => _getText('freepik');
+
+  String get svgRepo => _getText('svgRepo');
+
+  String get legalInfo => _getText('legalInfo');
+
+  String get companyInfo => _getText('companyInfo');
+
+  // NEUE GETTER FÜR DATENSCHUTZ
+  String get privacyOverview => _getText('privacyOverview');
+
+  String get dataCollection => _getText('dataCollection');
+
+  String get howWeCollect => _getText('howWeCollect');
+
+  String get dataUsage => _getText('dataUsage');
+
+  String get yourRights => _getText('yourRights');
+
+  String get analyticsTools => _getText('analyticsTools');
+
+  String get hostingProvider => _getText('hostingProvider');
+
+  String get generalInfo => _getText('generalInfo');
+
+  String get responsibleParty => _getText('responsibleParty');
+
+  String get storageDuration => _getText('storageDuration');
+
+  String get revokeConsent => _getText('revokeConsent');
+
+  String get objectionRight => _getText('objectionRight');
+
+  String get complaintRight => _getText('complaintRight');
+
+  String get dataPortability => _getText('dataPortability');
+
+  String get sslEncryption => _getText('sslEncryption');
+
+  String get paymentEncryption => _getText('paymentEncryption');
+
+  String get dataSecurity => _getText('dataSecurity');
+
+  String get privacyPolicy => _getText('privacyPolicy');
 }
 
 class AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
