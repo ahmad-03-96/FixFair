@@ -59,7 +59,7 @@ class _HomePageState extends State<HomePage> {
             // Dienstleistungs-Sektion
             Container(
               padding: EdgeInsets.symmetric(vertical: 40, horizontal: 20),
-              color: theme.cardColor,
+              color: theme.primaryColor,
               child: Column(
                 children: [
                   Text(
@@ -98,7 +98,6 @@ class _HomePageState extends State<HomePage> {
             // Weitere Platzhalter
             Container(
               padding: EdgeInsets.symmetric(vertical: 40, horizontal: 20),
-              color: theme.cardColor,
               child: GestureDetector(
                 onTap: () {
                   Navigator.push(

@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:provider/provider.dart';
 import 'package:rive/rive.dart';
+
+import '../providers/theme_provider.dart';
 
 class RivePlaceholder extends StatefulWidget {
   final String title;
@@ -24,6 +27,7 @@ class RivePlaceholder extends StatefulWidget {
 }
 
 class _RivePlaceholderState extends State<RivePlaceholder> {
+  late final themeProvider = Provider.of<ThemeProvider>(context);
   bool _isHovered = false;
   Artboard? _riveArtboard;
   late StateMachineController? stateMachineController;
@@ -77,7 +81,7 @@ class _RivePlaceholderState extends State<RivePlaceholder> {
               Container(
                 height: widget.height,
                 decoration: BoxDecoration(
-                  color: Colors.grey[50],
+                  color: themeProvider.getCardColor(context),
                   borderRadius: BorderRadius.circular(16),
                   boxShadow: _isHovered
                       ? [
@@ -125,7 +129,7 @@ class _RivePlaceholderState extends State<RivePlaceholder> {
                           style: TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.bold,
-                            color: _isHovered ? Colors.blue : Colors.grey[800],
+                            color: themeProvider.getTextColor(context),
                           ),
                           textAlign: TextAlign.center,
                           maxLines: 2,
@@ -155,7 +159,7 @@ class _RivePlaceholderState extends State<RivePlaceholder> {
                 widget.subtitle,
                 style: TextStyle(
                   fontSize: 14,
-                  color: Colors.grey[600],
+                  color: themeProvider.getTextColor(context),
                   fontWeight: FontWeight.w500,
                 ),
                 textAlign: TextAlign.center,

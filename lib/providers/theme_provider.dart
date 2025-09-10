@@ -36,19 +36,19 @@ class ThemeProvider with ChangeNotifier {
   );
 
   static final ThemeData darkTheme = ThemeData(
-    primaryColor: darkHeaderFooter,
+    primaryColor: Color(0xFF212121),
     colorScheme: ColorScheme.dark(
-      primary: darkHeaderFooter,
+      primary: Color(0xFF000000),
       secondary: Colors.grey[800]!,
     ),
     brightness: Brightness.dark,
-    scaffoldBackgroundColor: Colors.grey[900],
+    scaffoldBackgroundColor: Color(0xFF212121),
     appBarTheme: AppBarTheme(
       backgroundColor: darkHeaderFooter,
       foregroundColor: darkText,
     ),
     cardColor: Colors.grey[800],
-    dialogTheme: DialogThemeData(backgroundColor: Colors.grey[800]),
+    dialogTheme: DialogThemeData(backgroundColor: Color(0xFF212121)),
   );
 
   Color getHeaderColor(BuildContext context) {
@@ -82,12 +82,12 @@ class ThemeProvider with ChangeNotifier {
 
   // Primäre Farbe (Grün)
   Color getPrimaryColor(BuildContext context) {
-    return themeMode == ThemeMode.dark ? Colors.grey[700]! : primaryGreen;
+    return themeMode == ThemeMode.dark ? Color(0xFF212121) : primaryGreen;
   }
 
   // Sekundäre Farbe (Hellgrün)
   Color getSecondaryColor(BuildContext context) {
-    return themeMode == ThemeMode.dark ? Colors.grey[600]! : secondaryGreen;
+    return themeMode == ThemeMode.dark ? Color(0xFF212121) : secondaryGreen;
   }
 
   // Icon Farbe

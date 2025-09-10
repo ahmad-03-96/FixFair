@@ -192,7 +192,7 @@ class _ServiceDetailPageState extends State<ServiceDetailPage> {
               height: screenHeight * 0.25,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(12),
-                color: Colors.grey[50],
+                color: Theme.of(context).cardColor,
                 boxShadow: [
                   BoxShadow(
                     color: Colors.black12,
