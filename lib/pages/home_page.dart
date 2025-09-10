@@ -27,9 +27,6 @@ class _HomePageState extends State<HomePage> {
   final TextEditingController _inspectionTypeController =
       TextEditingController();
 
-  final ScrollController _scrollController = ScrollController();
-
-
   @override
   void initState() {
     super.initState();
@@ -37,7 +34,6 @@ class _HomePageState extends State<HomePage> {
 
   @override
   void dispose() {
-    _scrollController.dispose();
     _nameController.dispose();
     _emailController.dispose();
     _phoneController.dispose();
@@ -56,7 +52,6 @@ class _HomePageState extends State<HomePage> {
 
     return Scaffold(
       body: SingleChildScrollView(
-        controller: _scrollController,
         child: Column(
           children: [
             HeaderSection(),

@@ -81,7 +81,7 @@ class _RiveLogoState extends State<RiveAnimationLoad> {
         final screenWidth = constraints.maxWidth;
         final animationSize = screenWidth > 600
             ? widget.maxSize *
-            5 // Größer auf Tablets/Desktop
+                  5 // Größer auf Tablets/Desktop
             : widget.maxSize * 4; // Standard auf Mobilgeräten
 
         return GestureDetector(
@@ -93,11 +93,11 @@ class _RiveLogoState extends State<RiveAnimationLoad> {
             decoration: BoxDecoration(borderRadius: BorderRadius.circular(20)),
             child: _riveArtboard != null
                 ? Rive(
-              enablePointerEvents: true,
-              artboard: _riveArtboard!,
-              fit: BoxFit.contain,
-              alignment: Alignment.center,
-            )
+                    enablePointerEvents: true,
+                    artboard: _riveArtboard!,
+                    fit: BoxFit.contain,
+                    alignment: Alignment.center,
+                  )
                 : _buildPlaceholder(animationSize),
           ),
         );

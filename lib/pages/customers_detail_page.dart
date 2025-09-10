@@ -15,7 +15,6 @@ class CustomersDetailPage extends StatelessWidget {
     final cardColor = themeProvider.getCardColor(context);
 
     return Scaffold(
-
       body: SingleChildScrollView(
         padding: EdgeInsets.all(20),
         child: Column(

@@ -1,4 +1,3 @@
-import 'package:fix_fair/widgets/rive_placeholder.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

@@ -1,9 +1,10 @@
 // lib/providers/web_review_provider.dart
 import 'dart:convert';
-import 'package:flutter/foundation.dart';
-import 'package:flutter/foundation.dart' show kIsWeb;
-import '../models/review_model.dart';
 import 'dart:html' as html; // Für LocalStorage
+
+import 'package:flutter/foundation.dart';
+
+import '../models/review_model.dart';
 
 class WebReviewProvider with ChangeNotifier {
   List<Review> _reviews = [];
@@ -11,10 +12,14 @@ class WebReviewProvider with ChangeNotifier {
   static const String _storageKey = 'fix_fair_reviews';
 
   List<Review> get reviews => _reviews;
+
   List<Review> get pendingReviews => _pendingReviews;
+
   int get totalReviews => _reviews.length;
-  double get averageRating => _reviews.isEmpty ? 0 :
-  _reviews.map((r) => r.rating).reduce((a, b) => a + b) / _reviews.length;
+
+  double get averageRating => _reviews.isEmpty
+      ? 0
+      : _reviews.map((r) => r.rating).reduce((a, b) => a + b) / _reviews.length;
 
   WebReviewProvider() {
     _loadReviews();
@@ -53,7 +58,9 @@ class WebReviewProvider with ChangeNotifier {
   void _saveReviews() {
     try {
       if (kIsWeb) {
-        final String reviewsJson = json.encode(_reviews.map((r) => r.toJson()).toList());
+        final String reviewsJson = json.encode(
+          _reviews.map((r) => r.toJson()).toList(),
+        );
         _saveToLocalStorage(reviewsJson);
         if (kDebugMode) {
           print('${_reviews.length} Bewertungen gespeichert');
@@ -139,5 +146,4 @@ class WebReviewProvider with ChangeNotifier {
   String getDebugJson() {
     return json.encode(_reviews.map((r) => r.toJson()).toList());
   }
-
 }
