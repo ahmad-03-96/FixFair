@@ -307,6 +307,29 @@ class AppLocalizations {
       'individualOffers': 'Individuelle Angebote',
       'specialOrders': 'Spezialaufträge möglich',
       'onSiteConsultation': 'Beratung vor Ort',
+
+      // SEO KEYWORDS FÜR UMZUG KASSEL
+      'seoUmzugKassel': 'Umzug Kassel - Professioneller Umzugsservice\n',
+      'seoUmzugsunternehmen': 'Umzugsunternehmen Kassel - Fix & Fair\n',
+      'seoMoebeltransport': 'Möbeltransport Kassel - Günstig und Zuverlässig\n',
+      'seoEntruempelung': 'Entrümpelung Kassel - Schnell und Preiswert\n',
+      'seoHaushaltsaufloesung': 'Haushaltsauflösung Kassel - Komplettservice\n',
+      'seoMoebelmontage': 'Möbelmontage Kassel - Fachgerechter Aufbau\n',
+      'seoKuechenmontage': 'Küchenmontage Kassel - Professionelle Montage\n',
+      'seoBueroUmzug': 'Büroumzug Kassel - Business Umzugsservice\n',
+      'seoSeniorenUmzug': 'Seniorenumzug Kassel - Behutsamer Service\n',
+      'seoMoebelpacker': 'Möbelpacker Kassel - Erfahrene Umzugshelfer\n',
+      'seoGuenstigUmzug': 'Günstiger Umzug Kassel - Beste Preise\n',
+      'seoProfessionellUmzug': 'Professioneller Umzugsservice Nordhessen\n',
+      'seoUmzugMontage': 'Umzug mit Montage - Komplettpaket\n',
+      'seoEntsorgung': 'Entsorgung Kassel - Umweltgerechte Entsorgung\n',
+      'seoRaeumung': 'Räumung Kassel - Vollständige Räumungen\n',
+      'seoNordhessen': 'Umzug Nordhessen - Regionale Umzugsservices\n',
+      'seoUmzugsdienst': 'Umzugsdienst Hessen - Bundesweite Services\n',
+      'seoMoebeltaxi': 'Möbeltaxi Kassel - Kleintransporte\n',
+      'seoTransporter': 'Transporter mieten Kassel - Transportlösungen\n',
+      'seoQualityService': 'Qualitätsumzug Kassel - Fix & Fair Service\n',
+      'seoReliableMoving': 'Zuverlässiger Umzugsservice Kassel\n',
     },
     'en': {
       'appTitle': 'Fix & Fair',
@@ -611,6 +634,31 @@ class AppLocalizations {
       'individualOffers': 'Individual offers',
       'specialOrders': 'Special orders possible',
       'onSiteConsultation': 'On-site consultation',
+
+      // SEO KEYWORDS FOR MOVING KASSEL
+      'seoUmzugKassel': 'Moving Kassel - Professional Moving Service',
+      'seoUmzugsunternehmen': 'Moving Company Kassel - Fix & Fair',
+      'seoMoebeltransport': 'Furniture Transport Kassel - Cheap and Reliable',
+      'seoEntruempelung': 'Clearance Kassel - Fast and Affordable',
+      'seoHaushaltsaufloesung':
+          'Household Liquidation Kassel - Complete Service',
+      'seoMoebelmontage': 'Furniture Assembly Kassel - Professional Assembly',
+      'seoKuechenmontage':
+          'Kitchen Assembly Kassel - Professional Installation',
+      'seoBueroUmzug': 'Office Move Kassel - Business Moving Service',
+      'seoSeniorenUmzug': 'Senior Move Kassel - Careful Service',
+      'seoMoebelpacker': 'Furniture Movers Kassel - Experienced Moving Helpers',
+      'seoGuenstigUmzug': 'Cheap Move Kassel - Best Prices',
+      'seoProfessionellUmzug': 'Professional Moving Service Northern Hesse',
+      'seoUmzugMontage': 'Moving with Assembly - Complete Package',
+      'seoEntsorgung': 'Disposal Kassel - Environmentally Friendly Disposal',
+      'seoRaeumung': 'Clearance Kassel - Complete Clearances',
+      'seoNordhessen': 'Moving Northern Hesse - Regional Moving Services',
+      'seoUmzugsdienst': 'Moving Service Hesse - Nationwide Services',
+      'seoMoebeltaxi': 'Furniture Taxi Kassel - Small Transports',
+      'seoTransporter': 'Rent Transporter Kassel - Transport Solutions',
+      'seoQualityService': 'Quality Move Kassel - Fix & Fair Service',
+      'seoReliableMoving': 'Reliable Moving Service Kassel',
     },
     'ar': {
       'appTitle': 'فيكس آند فير',
@@ -909,6 +957,29 @@ class AppLocalizations {
       'individualOffers': 'عروض فردية',
       'specialOrders': 'طلبات خاصة ممكنة',
       'onSiteConsultation': 'استشارة في الموقع',
+
+      // ARABIC SEO KEYWORDS
+      'seoUmzugKassel': 'نقل كاسل - خدمة نقل محترفة',
+      'seoUmzugsunternehmen': 'شركة نقل كاسل - Fix & Fair',
+      'seoMoebeltransport': 'نقل الأثاث كاسل - رخيص وموثوق',
+      'seoEntruempelung': 'تخليص كاسل - سريع وبأسعار معقولة',
+      'seoHaushaltsaufloesung': 'تسييل المنزل كاسل - خدمة كاملة',
+      'seoMoebelmontage': 'تركيب الأثاث كاسل - تركيب محترف',
+      'seoKuechenmontage': 'تركيب المطبخ كاسل - تركيب محترف',
+      'seoBueroUmzug': 'نقل المكتب كاسل - خدمة نقل الأعمال',
+      'seoSeniorenUmzug': 'نقل كبار السن كاسل - خدمة رعاية',
+      'seoMoebelpacker': 'حاملو الأثاث كاسل - مساعدو نقل ذوي خبرة',
+      'seoGuenstigUmzug': 'نقل رخيص كاسل - أفضل الأسعار',
+      'seoProfessionellUmzug': 'خدمة نقل محترفة شمال هيسن',
+      'seoUmzugMontage': 'نقل مع التركيب - باقة كاملة',
+      'seoEntsorgung': 'تخلص كاسل - التخلص الصديق للبيئة',
+      'seoRaeumung': 'تخليص كاسل - عمليات تخليص كاملة',
+      'seoNordhessen': 'نقل شمال هيسن - خدمات نقل إقليمية',
+      'seoUmzugsdienst': 'خدمة نقل هيسن - خدمات على مستوى البلاد',
+      'seoMoebeltaxi': 'تاكسي الأثاث كاسل - نقل صغير',
+      'seoTransporter': 'استئجار نقل كاسل - حلول النقل',
+      'seoQualityService': 'نقل عالي الجودة كاسل - خدمة Fix & Fair',
+      'seoReliableMoving': 'خدمة نقل موثوقة كاسل',
     },
     'tr': {
       'appTitle': 'Fix & Fair',
@@ -1208,6 +1279,30 @@ class AppLocalizations {
       'individualOffers': 'Bireysel teklifler',
       'specialOrders': 'Özel siparişler mümkün',
       'onSiteConsultation': 'Yerinde danışmanlık',
+
+      // TURKISH SEO KEYWORDS
+      'seoUmzugKassel': 'Kassel Taşınma - Profesyonel Taşınma Hizmeti',
+      'seoUmzugsunternehmen': 'Kassel Taşınma Şirketi - Fix & Fair',
+      'seoMoebeltransport': 'Kassel Mobilya Nakliyesi - Ucuz ve Güvenilir',
+      'seoEntruempelung': 'Kassel Eşya Tasfiyesi - Hızlı ve Uygun Fiyatlı',
+      'seoHaushaltsaufloesung': 'Kassel Ev Tasfiyesi - Tam Hizmet',
+      'seoMoebelmontage': 'Kassel Mobilya Montajı - Profesyonel Montaj',
+      'seoKuechenmontage': 'Kassel Mutfak Montajı - Profesyonel Kurulum',
+      'seoBueroUmzug': 'Kassel Ofis Taşınması - İş Taşınma Hizmeti',
+      'seoSeniorenUmzug': 'Kassel Yaşlı Taşınması - Özenli Hizmet',
+      'seoMoebelpacker':
+          'Kassel Mobilya Taşıyıcıları - Deneyimli Taşınma Yardımcıları',
+      'seoGuenstigUmzug': 'Kassel Ucuz Taşınma - En İyi Fiyatlar',
+      'seoProfessionellUmzug': 'Kuzey Hesse Profesyonel Taşınma Hizmeti',
+      'seoUmzugMontage': 'Montajlı Taşınma - Tam Paket',
+      'seoEntsorgung': 'Kassel Atık Bertarafı - Çevre Dostu Bertaraf',
+      'seoRaeumung': 'Kassel Tasfiye - Tam Tasfiyeler',
+      'seoNordhessen': 'Kuzey Hesse Taşınması - Bölgesel Taşınma Hizmetleri',
+      'seoUmzugsdienst': 'Hesse Taşınma Hizmeti - Ülke Çapında Hizmetler',
+      'seoMoebeltaxi': 'Kassel Mobilya Taksi - Küçük Nakliyat',
+      'seoTransporter': 'Kassel Transporter Kiralama - Taşıma Çözümleri',
+      'seoQualityService': 'Kassel Kaliteli Taşınma - Fix & Fair Hizmeti',
+      'seoReliableMoving': 'Kassel Güvenilir Taşınma Hizmeti',
     },
     'ru': {
       'appTitle': 'Fix & Fair',
@@ -1512,6 +1607,32 @@ class AppLocalizations {
       'individualOffers': 'Индивидуальные предложения',
       'specialOrders': 'Специальные заказы возможны',
       'onSiteConsultation': 'Консультация на месте',
+
+      // RUSSIAN SEO KEYWORDS
+      'seoUmzugKassel': 'Переезд Кассель - Профессиональные услуги переезда',
+      'seoUmzugsunternehmen': 'Компания по переезду Кассель - Fix & Fair',
+      'seoMoebeltransport': 'Перевозка мебели Кассель - Дешево и Надежно',
+      'seoEntruempelung': 'Расхламление Кассель - Быстро и Недорого',
+      'seoHaushaltsaufloesung':
+          'Ликвидация домашнего хозяйства Кассель - Полный сервис',
+      'seoMoebelmontage': 'Сборка мебели Кассель - Профессиональная сборка',
+      'seoKuechenmontage': 'Сборка кухни Кассель - Профессиональный монтаж',
+      'seoBueroUmzug': 'Офисный переезд Кассель - Бизнес услуги переезда',
+      'seoSeniorenUmzug': 'Переезд пожилых Кассель - Заботливый сервис',
+      'seoMoebelpacker':
+          'Грузчики мебели Кассель - Опытные помощники по переезду',
+      'seoGuenstigUmzug': 'Дешевый переезд Кассель - Лучшие цены',
+      'seoProfessionellUmzug':
+          'Профессиональные услуги переезда Северный Гессен',
+      'seoUmzugMontage': 'Переезд с сборкой - Полный пакет',
+      'seoEntsorgung': 'Утилизация Кассель - Экологичная утилизация',
+      'seoRaeumung': 'Расчистка Кассель - Полные расчистки',
+      'seoNordhessen': 'Переезд Северный Гессен - Региональные услуги переезда',
+      'seoUmzugsdienst': 'Услуги переезда Гессен - Услуги по всей стране',
+      'seoMoebeltaxi': 'Мебельное такси Кассель - Малые перевозки',
+      'seoTransporter': 'Аренда транспортера Кассель - Транспортные решения',
+      'seoQualityService': 'Качественный переезд Кассель - Сервис Fix & Fair',
+      'seoReliableMoving': 'Надежные услуги переезда Кассель',
     },
     'uk': {
       'appTitle': 'Fix & Fair',
@@ -1819,6 +1940,32 @@ class AppLocalizations {
       'individualOffers': 'Індивідуальні пропозиції',
       'specialOrders': 'Спеціальні замовлення можливі',
       'onSiteConsultation': 'Консультація на місці',
+
+      // UKRAINIAN SEO KEYWORDS
+      'seoUmzugKassel': 'Переїзд Кассель - Професійні послуги переїзду',
+      'seoUmzugsunternehmen': 'Компанія з переїзду Кассель - Fix & Fair',
+      'seoMoebeltransport': 'Перевезення меблів Кассель - Дешево та Надійно',
+      'seoEntruempelung': 'Розхламлення Кассель - Швидко та Недорого',
+      'seoHaushaltsaufloesung':
+          'Ліквідація домогосподарства Кассель - Повний сервіс',
+      'seoMoebelmontage': 'Збірка меблів Кассель - Професійна збірка',
+      'uechenmontage': 'Збірка кухні Кассель - Професійний монтаж',
+      'seoBueroUmzug': 'Офісний переїзд Кассель - Бізнес послуги переїзду',
+      'seoSeniorenUmzug': 'Переїзд літніх Кассель - Турботливий сервіс',
+      'seoMoebelpacker':
+          'Вантажники меблів Кассель - Досвідчені помічники з переїзду',
+      'seoGuenstigUmzug': 'Дешевий переїзд Кассель - Найкращі ціни',
+      'seoProfessionellUmzug': 'Професійні послуги переїзду Північний Гессен',
+      'seoUmzugMontage': 'Переїзд зі збіркою - Повний пакет',
+      'seoEntsorgung': 'Утилізація Кассель - Екологічна утилізація',
+      'seoRaeumung': 'Розчищення Кассель - Повні розчищення',
+      'seoNordhessen':
+          'Переїзд Північний Гессен - Регіональні послуги переїзду',
+      'seoUmzugsdienst': 'Послуги переїзду Гессен - Послуги по всій країні',
+      'seoMoebeltaxi': 'Меблеве таксі Кассель - Малі перевезення',
+      'seoTransporter': 'Оренда транспортера Кассель - Транспортні рішення',
+      'seoQualityService': 'Якісний переїзд Кассель - Сервіс Fix & Fair',
+      'seoReliableMoving': 'Надійні послуги переїзду Кассель',
     },
   };
 
@@ -2411,6 +2558,49 @@ class AppLocalizations {
   String get specialOrders => _getText('specialOrders');
 
   String get onSiteConsultation => _getText('onSiteConsultation');
+
+  // SEO KEYWORDS GETTER
+  String get seoUmzugKassel => _getText('seoUmzugKassel');
+
+  String get seoUmzugsunternehmen => _getText('seoUmzugsunternehmen');
+
+  String get seoMoebeltransport => _getText('seoMoebeltransport');
+
+  String get seoEntruempelung => _getText('seoEntruempelung');
+
+  String get seoHaushaltsaufloesung => _getText('seoHaushaltsaufloesung');
+
+  String get seoMoebelmontage => _getText('seoMoebelmontage');
+
+  String get seoKuechenmontage => _getText('seoKuechenmontage');
+
+  String get seoBueroUmzug => _getText('seoBueroUmzug');
+
+  String get seoSeniorenUmzug => _getText('seoSeniorenUmzug');
+
+  String get seoMoebelpacker => _getText('seoMoebelpacker');
+
+  String get seoGuenstigUmzug => _getText('seoGuenstigUmzug');
+
+  String get seoProfessionellUmzug => _getText('seoProfessionellUmzug');
+
+  String get seoUmzugMontage => _getText('seoUmzugMontage');
+
+  String get seoEntsorgung => _getText('seoEntsorgung');
+
+  String get seoRaeumung => _getText('seoRaeumung');
+
+  String get seoNordhessen => _getText('seoNordhessen');
+
+  String get seoUmzugsdienst => _getText('seoUmzugsdienst');
+
+  String get seoMoebeltaxi => _getText('seoMoebeltaxi');
+
+  String get seoTransporter => _getText('seoTransporter');
+
+  String get seoQualityService => _getText('seoQualityService');
+
+  String get seoReliableMoving => _getText('seoReliableMoving');
 }
 
 class AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
