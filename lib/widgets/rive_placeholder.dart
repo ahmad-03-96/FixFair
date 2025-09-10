@@ -81,20 +81,20 @@ class _RivePlaceholderState extends State<RivePlaceholder> {
                   borderRadius: BorderRadius.circular(16),
                   boxShadow: _isHovered
                       ? [
-                          BoxShadow(
-                            color: Colors.blue.withOpacity(0.3),
-                            blurRadius: 15,
-                            spreadRadius: 2,
-                            offset: Offset(0, 6),
-                          ),
-                        ]
+                    BoxShadow(
+                      color: Colors.blue.withOpacity(0.3),
+                      blurRadius: 15,
+                      spreadRadius: 2,
+                      offset: Offset(0, 6),
+                    ),
+                  ]
                       : [
-                          BoxShadow(
-                            color: Colors.black12,
-                            blurRadius: 8,
-                            offset: Offset(0, 4),
-                          ),
-                        ],
+                    BoxShadow(
+                      color: Colors.black12,
+                      blurRadius: 8,
+                      offset: Offset(0, 4),
+                    ),
+                  ],
                   border: _isHovered
                       ? Border.all(color: Colors.blue, width: 2)
                       : Border.all(color: Colors.grey[300]!, width: 1),
@@ -111,17 +111,11 @@ class _RivePlaceholderState extends State<RivePlaceholder> {
                           // 50% der Gesamthöhe für Animation
                           child: _riveArtboard != null
                               ? Rive(
-                                  enablePointerEvents: true,
-                                  artboard: _riveArtboard!,
-                                  fit: BoxFit.contain,
-                                )
-                              : Icon(
-                                  Icons.animation,
-                                  size: 40,
-                                  color: _isHovered
-                                      ? Colors.blue
-                                      : Colors.grey[400],
-                                ),
+                            enablePointerEvents: true,
+                            artboard: _riveArtboard!,
+                            fit: BoxFit.contain,
+                          )
+                              : _buildLoadingPlaceholder(), // Ladeanimation
                         ),
                         SizedBox(height: 12),
 
@@ -175,6 +169,13 @@ class _RivePlaceholderState extends State<RivePlaceholder> {
     );
   }
 
+  Widget _buildLoadingPlaceholder() {
+    return CircularProgressIndicator(
+      strokeWidth: 4,
+      valueColor: AlwaysStoppedAnimation<Color>(Colors.blue), // Deine Wunschfarbe
+    );
+  }
+
   @override
   void didUpdateWidget(RivePlaceholder oldWidget) {
     super.didUpdateWidget(oldWidget);
@@ -182,6 +183,4 @@ class _RivePlaceholderState extends State<RivePlaceholder> {
       _loadRiveAnimation();
     }
   }
-
-  // dispose() Methode entfernt - Artboard benötigt kein dispose in neuer Rive Version
 }
