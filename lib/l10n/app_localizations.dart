@@ -309,27 +309,27 @@ class AppLocalizations {
       'onSiteConsultation': 'Beratung vor Ort',
 
       // SEO KEYWORDS FÜR UMZUG KASSEL
-      'seoUmzugKassel': 'Umzug Kassel - Professioneller Umzugsservice\n',
-      'seoUmzugsunternehmen': 'Umzugsunternehmen Kassel - Fix & Fair\n',
-      'seoMoebeltransport': 'Möbeltransport Kassel - Günstig und Zuverlässig\n',
-      'seoEntruempelung': 'Entrümpelung Kassel - Schnell und Preiswert\n',
-      'seoHaushaltsaufloesung': 'Haushaltsauflösung Kassel - Komplettservice\n',
-      'seoMoebelmontage': 'Möbelmontage Kassel - Fachgerechter Aufbau\n',
-      'seoKuechenmontage': 'Küchenmontage Kassel - Professionelle Montage\n',
-      'seoBueroUmzug': 'Büroumzug Kassel - Business Umzugsservice\n',
-      'seoSeniorenUmzug': 'Seniorenumzug Kassel - Behutsamer Service\n',
-      'seoMoebelpacker': 'Möbelpacker Kassel - Erfahrene Umzugshelfer\n',
-      'seoGuenstigUmzug': 'Günstiger Umzug Kassel - Beste Preise\n',
-      'seoProfessionellUmzug': 'Professioneller Umzugsservice Nordhessen\n',
-      'seoUmzugMontage': 'Umzug mit Montage - Komplettpaket\n',
-      'seoEntsorgung': 'Entsorgung Kassel - Umweltgerechte Entsorgung\n',
-      'seoRaeumung': 'Räumung Kassel - Vollständige Räumungen\n',
-      'seoNordhessen': 'Umzug Nordhessen - Regionale Umzugsservices\n',
-      'seoUmzugsdienst': 'Umzugsdienst Hessen - Bundesweite Services\n',
-      'seoMoebeltaxi': 'Möbeltaxi Kassel - Kleintransporte\n',
-      'seoTransporter': 'Transporter mieten Kassel - Transportlösungen\n',
-      'seoQualityService': 'Qualitätsumzug Kassel - Fix & Fair Service\n',
-      'seoReliableMoving': 'Zuverlässiger Umzugsservice Kassel\n',
+      'seoUmzugKassel': 'Umzug Kassel - Professioneller Umzugsservice',
+      'seoUmzugsunternehmen': 'Umzugsunternehmen Kassel - Fix & Fair',
+      'seoMoebeltransport': 'Möbeltransport Kassel - Günstig und Zuverlässig',
+      'seoEntruempelung': 'Entrümpelung Kassel - Schnell und Preiswert',
+      'seoHaushaltsaufloesung': 'Haushaltsauflösung Kassel - Komplettservice',
+      'seoMoebelmontage': 'Möbelmontage Kassel - Fachgerechter Aufbau',
+      'seoKuechenmontage': 'Küchenmontage Kassel - Professionelle Montage',
+      'seoBueroUmzug': 'Büroumzug Kassel - Business Umzugsservice',
+      'seoSeniorenUmzug': 'Seniorenumzug Kassel - Behutsamer Service',
+      'seoMoebelpacker': 'Möbelpacker Kassel - Erfahrene Umzugshelfer',
+      'seoGuenstigUmzug': 'Günstiger Umzug Kassel - Beste Preise',
+      'seoProfessionellUmzug': 'Professioneller Umzugsservice Nordhessen',
+      'seoUmzugMontage': 'Umzug mit Montage - Komplettpaket',
+      'seoEntsorgung': 'Entsorgung Kassel - Umweltgerechte Entsorgung',
+      'seoRaeumung': 'Räumung Kassel - Vollständige Räumungen',
+      'seoNordhessen': 'Umzug Nordhessen \n Regionale Umzugsservices',
+      'seoUmzugsdienst': 'Umzugsdienst Hessen - Bundesweite Services',
+      'seoMoebeltaxi': 'Möbeltaxi Kassel - Kleintransporte',
+      'seoTransporter': 'Transporter mieten Kassel - Transportlösungen',
+      'seoQualityService': 'Qualitätsumzug Kassel - Fix & Fair Service',
+      'seoReliableMoving': 'Zuverlässiger Umzugsservice Kassel',
     },
     'en': {
       'appTitle': 'Fix & Fair',
@@ -653,7 +653,7 @@ class AppLocalizations {
       'seoUmzugMontage': 'Moving with Assembly - Complete Package',
       'seoEntsorgung': 'Disposal Kassel - Environmentally Friendly Disposal',
       'seoRaeumung': 'Clearance Kassel - Complete Clearances',
-      'seoNordhessen': 'Moving Northern Hesse - Regional Moving Services',
+      'seoNordhessen': 'Moving Northern Hesse \n Regional Moving Services',
       'seoUmzugsdienst': 'Moving Service Hesse - Nationwide Services',
       'seoMoebeltaxi': 'Furniture Taxi Kassel - Small Transports',
       'seoTransporter': 'Rent Transporter Kassel - Transport Solutions',
@@ -974,7 +974,7 @@ class AppLocalizations {
       'seoUmzugMontage': 'نقل مع التركيب - باقة كاملة',
       'seoEntsorgung': 'تخلص كاسل - التخلص الصديق للبيئة',
       'seoRaeumung': 'تخليص كاسل - عمليات تخليص كاملة',
-      'seoNordhessen': 'نقل شمال هيسن - خدمات نقل إقليمية',
+      'seoNordhessen': 'نقل شمال هيسن \n خدمات نقل إقليمية',
       'seoUmzugsdienst': 'خدمة نقل هيسن - خدمات على مستوى البلاد',
       'seoMoebeltaxi': 'تاكسي الأثاث كاسل - نقل صغير',
       'seoTransporter': 'استئجار نقل كاسل - حلول النقل',
@@ -1297,7 +1297,7 @@ class AppLocalizations {
       'seoUmzugMontage': 'Montajlı Taşınma - Tam Paket',
       'seoEntsorgung': 'Kassel Atık Bertarafı - Çevre Dostu Bertaraf',
       'seoRaeumung': 'Kassel Tasfiye - Tam Tasfiyeler',
-      'seoNordhessen': 'Kuzey Hesse Taşınması - Bölgesel Taşınma Hizmetleri',
+      'seoNordhessen': 'Kuzey Hesse Taşınması \n Bölgesel Taşınma Hizmetleri',
       'seoUmzugsdienst': 'Hesse Taşınma Hizmeti - Ülke Çapında Hizmetler',
       'seoMoebeltaxi': 'Kassel Mobilya Taksi - Küçük Nakliyat',
       'seoTransporter': 'Kassel Transporter Kiralama - Taşıma Çözümleri',
@@ -1627,7 +1627,7 @@ class AppLocalizations {
       'seoUmzugMontage': 'Переезд с сборкой - Полный пакет',
       'seoEntsorgung': 'Утилизация Кассель - Экологичная утилизация',
       'seoRaeumung': 'Расчистка Кассель - Полные расчистки',
-      'seoNordhessen': 'Переезд Северный Гессен - Региональные услуги переезда',
+      'seoNordhessen': 'Переезд Северный Гессен \n Региональные услуги переезда',
       'seoUmzugsdienst': 'Услуги переезда Гессен - Услуги по всей стране',
       'seoMoebeltaxi': 'Мебельное такси Кассель - Малые перевозки',
       'seoTransporter': 'Аренда транспортера Кассель - Транспортные решения',
@@ -1960,7 +1960,7 @@ class AppLocalizations {
       'seoEntsorgung': 'Утилізація Кассель - Екологічна утилізація',
       'seoRaeumung': 'Розчищення Кассель - Повні розчищення',
       'seoNordhessen':
-          'Переїзд Північний Гессен - Регіональні послуги переїзду',
+          'Переїзд Північний Гессен \n Регіональні послуги переїзду',
       'seoUmzugsdienst': 'Послуги переїзду Гессен - Послуги по всій країні',
       'seoMoebeltaxi': 'Меблеве таксі Кассель - Малі перевезення',
       'seoTransporter': 'Оренда транспортера Кассель - Транспортні рішення',
@@ -2271,28 +2271,6 @@ class AppLocalizations {
 
   String get imprintContent6 => _getText('imprintContent6');
 
-  // Add Review Page
-  String get reviewTitle => _getText('reviewTitle');
-
-  String get reviewRatingQuestion => _getText('reviewRatingQuestion');
-
-  String get reviewNameLabel => _getText('reviewNameLabel');
-
-  String get reviewNameError => _getText('reviewNameError');
-
-  String get reviewServiceLabel => _getText('reviewServiceLabel');
-
-  String get reviewServiceError => _getText('reviewServiceError');
-
-  String get reviewCommentLabel => _getText('reviewCommentLabel');
-
-  String get reviewCommentError => _getText('reviewCommentError');
-
-  String get reviewMinLengthError => _getText('reviewMinLengthError');
-
-  String get reviewSubmitButton => _getText('reviewSubmitButton');
-
-  String get reviewThankYou => _getText('reviewThankYou');
 
   // Trust Details Page
   String get trustPoint1Title => _getText('trustPoint1Title');
@@ -2321,28 +2299,6 @@ class AppLocalizations {
 
   String get trustRequestButton => _getText('trustRequestButton');
 
-  // Admin Reviews Page
-  String get adminStatsReviews => _getText('adminStatsReviews');
-
-  String get adminStatsAverage => _getText('adminStatsAverage');
-
-  String get adminStatsPending => _getText('adminStatsPending');
-
-  String get adminDeleteConfirm => _getText('adminDeleteConfirm');
-
-  String get adminDeleteContent => _getText('adminDeleteContent');
-
-  String get adminCancel => _getText('adminCancel');
-
-  String get adminDelete => _getText('adminDelete');
-
-  String get adminClearAll => _getText('adminClearAll');
-
-  String get adminClearContent => _getText('adminClearContent');
-
-  String get adminDeleted => _getText('adminDeleted');
-
-  String get adminAllDeleted => _getText('adminAllDeleted');
 
   // NEUE GETTER FÜR CUSTOMERS PAGE
   String get googleReviews => _getText('googleReviews');
@@ -2564,7 +2520,7 @@ class AppLocalizations {
 
   String get seoUmzugsunternehmen => _getText('seoUmzugsunternehmen');
 
-  String get seoMoebeltransport => _getText('seoMoebeltransport');
+  String get seoMoebeltransport => _getText('seoMoebeltransport');//
 
   String get seoEntruempelung => _getText('seoEntruempelung');
 
@@ -2578,25 +2534,25 @@ class AppLocalizations {
 
   String get seoSeniorenUmzug => _getText('seoSeniorenUmzug');
 
-  String get seoMoebelpacker => _getText('seoMoebelpacker');
+  String get seoMoebelpacker => _getText('seoMoebelpacker');//
 
   String get seoGuenstigUmzug => _getText('seoGuenstigUmzug');
 
   String get seoProfessionellUmzug => _getText('seoProfessionellUmzug');
 
-  String get seoUmzugMontage => _getText('seoUmzugMontage');
+  String get seoUmzugMontage => _getText('seoUmzugMontage');//
 
-  String get seoEntsorgung => _getText('seoEntsorgung');
+  String get seoEntsorgung => _getText('seoEntsorgung');//
 
-  String get seoRaeumung => _getText('seoRaeumung');
+  String get seoRaeumung => _getText('seoRaeumung');//
 
   String get seoNordhessen => _getText('seoNordhessen');
 
-  String get seoUmzugsdienst => _getText('seoUmzugsdienst');
+  String get seoUmzugsdienst => _getText('seoUmzugsdienst');//
 
-  String get seoMoebeltaxi => _getText('seoMoebeltaxi');
+  String get seoMoebeltaxi => _getText('seoMoebeltaxi');//
 
-  String get seoTransporter => _getText('seoTransporter');
+  String get seoTransporter => _getText('seoTransporter');//
 
   String get seoQualityService => _getText('seoQualityService');
 
