@@ -92,7 +92,7 @@ class ThemeProvider with ChangeNotifier {
 
   // Icon Farbe
   Color getIconColor(BuildContext context) {
-    return themeMode == ThemeMode.dark ? Colors.white : primaryGreen;
+    return themeMode == ThemeMode.dark ? Colors.white : Colors.grey;
   }
 
   Color getButtonColor(BuildContext context) {

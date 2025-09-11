@@ -20,6 +20,7 @@ class Footer extends StatelessWidget {
 
     final footerColor = themeProvider.getFooterColor(context);
     final textColor = themeProvider.getFooterTextColor(context);
+    final iconColor = themeProvider.getIconColor(context);
     final primaryColor = themeProvider.getPrimaryColor(context);
     final isDarkMode = themeProvider.themeMode == ThemeMode.dark;
 
@@ -93,7 +94,7 @@ class Footer extends StatelessWidget {
                     ],
                   ),
                   textColor: textColor,
-                  primaryColor: primaryColor,
+                  primaryColor: iconColor,
                 ),
 
                 // Kontaktinformationen
@@ -107,7 +108,7 @@ class Footer extends StatelessWidget {
                         onTap: () => _launchURL('tel:+4917612345678'),
                         child: Row(
                           children: [
-                            Icon(Icons.phone, size: 16, color: primaryColor),
+                            Icon(Icons.phone, size: 16, color: iconColor),
                             SizedBox(width: 8),
                             Text(
                               localizations.telephone,
@@ -125,7 +126,7 @@ class Footer extends StatelessWidget {
                         onTap: () => _launchURL('mailto:Info@fix-fair.de'),
                         child: Row(
                           children: [
-                            Icon(Icons.email, size: 16, color: primaryColor),
+                            Icon(Icons.email, size: 16, color: iconColor),
                             SizedBox(width: 8),
                             Text(
                               localizations.emailAddress,
@@ -143,7 +144,7 @@ class Footer extends StatelessWidget {
                         onTap: () => _launchURL('https://wa.me/4917612345678'),
                         child: Row(
                           children: [
-                            Icon(Icons.message, size: 16, color: primaryColor),
+                            Icon(Icons.message, size: 16, color: iconColor),
                             SizedBox(width: 8),
                             Text(
                               'WhatsApp: +49 176 12345678',
@@ -159,7 +160,7 @@ class Footer extends StatelessWidget {
                     ],
                   ),
                   textColor: textColor,
-                  primaryColor: primaryColor,
+                  primaryColor: iconColor,
                 ),
 
                 // Service-Bereich
@@ -187,7 +188,7 @@ class Footer extends StatelessWidget {
                     ],
                   ),
                   textColor: textColor,
-                  primaryColor: primaryColor,
+                  primaryColor: iconColor,
                 ),
               ],
             ),
@@ -251,19 +252,19 @@ class Footer extends StatelessWidget {
               _buildSocialIcon(
                 icon: Icons.facebook,
                 onPressed: () => _launchURL('https://facebook.com/fixfairkassel'),
-                primaryColor: primaryColor,
+                primaryColor: iconColor,
               ),
               SizedBox(width: 15),
               _buildSocialIcon(
                 icon: Icons.message,
                 onPressed: () => _launchURL('https://wa.me/4917612345678'),
-                primaryColor: primaryColor,
+                primaryColor: iconColor,
               ),
               SizedBox(width: 15),
               _buildSocialIcon(
                 icon: Icons.email,
                 onPressed: () => _launchURL('mailto:Info@fix-fair.de'),
-                primaryColor: primaryColor,
+                primaryColor: iconColor,
               ),
             ],
           ),
