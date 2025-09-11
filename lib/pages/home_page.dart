@@ -5,6 +5,7 @@ import '../l10n/app_localizations.dart';
 import '../widgets/footer.dart';
 import '../widgets/header_section.dart';
 import '../widgets/rive_placeholder.dart';
+import '../widgets/seo_section.dart';
 import '../widgets/service_grid.dart';
 import 'customers_detail_page.dart';
 import 'service_detail_page.dart';
@@ -135,7 +136,10 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
             ),
-
+            Container(
+                margin: EdgeInsets.all(20),
+                child: GestureDetector(child: SeoSection(),)
+            ),
             // Footer
             Footer(),
           ],

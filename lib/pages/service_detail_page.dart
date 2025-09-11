@@ -7,6 +7,7 @@ import '../l10n/app_localizations.dart';
 import '../models/service_model.dart';
 import '../widgets/contact_form.dart';
 import '../widgets/dual_action_button.dart';
+import '../widgets/seo_section.dart';
 
 class ServiceDetailPage extends StatefulWidget {
   final Service service;
@@ -303,6 +304,7 @@ class _ServiceDetailPageState extends State<ServiceDetailPage> {
               onEmailPressed: _sendEmailRequest,
             ),
             SizedBox(height: 16),
+            SeoSection(),
           ],
         ),
       ),
