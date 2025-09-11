@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 class AppLocalizations {
   static final Map<String, Map<String, String>> _localizedValues = {
     'de': {
-      'appTitle': 'Fix & Fair',
+      'appTitle': 'Fix - Fair',
       'servicesTitle': 'Unsere Dienstleistungen',
       'servicesSubtitle': 'Ihr Partner für Dienstleistungen',
       'requestTitle': 'Kostenlose Anfrage',
@@ -27,7 +27,7 @@ class AppLocalizations {
       'errorRequiredFields': 'Bitte füllen Sie alle Pflichtfelder aus',
       'errorWhatsapp': 'WhatsApp konnte nicht geöffnet werden',
       'errorEmail': 'E-Mail konnte nicht geöffnet werden',
-      'companyName': 'Fix & Fair',
+      'companyName': 'Fix - Fair',
       'address': 'Quellhof Straße 26, 34127 Kassel',
       'contact': 'Kontakt',
       'telephone': 'Tel: +49 176 12345678',
@@ -35,7 +35,7 @@ class AppLocalizations {
       'imprint': 'Impressum',
       'privacy': 'Datenschutz',
       'terms': 'AGB',
-      'copyright': '© 2024 Fix & Fair. Alle Rechte vorbehalten.',
+      'copyright': '© 2024 Fix - Fair. Alle Rechte vorbehalten.',
 
       'privateMoves': 'Privat-Umzüge',
       'officeMoves': 'Büro-Umzüge',
@@ -118,7 +118,7 @@ class AppLocalizations {
       // AGB Page
       'agbSection1': '§ 1 Geltungsbereich',
       'agbContent1':
-          '1. Diese Allgemeinen Geschäftsbedingungen gelten für alle Verträge, die zwischen der Fix & Fair GmbH und dem Kunden geschlossen werden.',
+          '1. Diese Allgemeinen Geschäftsbedingungen gelten für alle Verträge, die zwischen der Fix - Fair GmbH und dem Kunden geschlossen werden.',
       'agbSection2': '§ 2 Vertragsschluss',
       'agbContent2':
           '1. Die Darstellung der Leistungen im Internet stellt kein rechtlich bindendes Angebot, sondern nur eine Aufforderung zur Abgabe eines Angebots dar.',
@@ -152,14 +152,14 @@ class AppLocalizations {
           'Beim Besuch unserer Website kann Ihr Surf-Verhalten statistisch ausgewertet werden. Das geschieht vor allem mit Cookies und mit sogenannten Analyseprogrammen. Die Analyse Ihres Surf-Verhaltens erfolgt in der Regel anonym; das Surf-Verhalten kann nicht zu Ihnen zurückverfolgt werden.',
       'privacySection5': '5. Verantwortliche Stelle',
       'privacyContent5':
-          'Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:\nFix & Fair\nQuellhof Straße 26\n34127 Kassel\nTelefon: +49 176 12345678\nE-Mail: Info@fix-fair.de',
+          'Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:\nFix - Fair\nQuellhof Straße 26\n34127 Kassel\nTelefon: +49 176 12345678\nE-Mail: Info@fix-fair.de',
       'privacySection6': '6. Widerruf Ihrer Einwilligung zur Datenverarbeitung',
       'privacyContent6':
           'Viele Datenverarbeitungsvorgänge sind nur mit Ihre ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per E-Mail an uns.',
 
       // Impressum Page
       'imprintSection1': 'Angaben gemäß § 5 TMG:',
-      'imprintContent1': 'Fix & Fair\nQuellhof Straße 26\n34127 Kassel',
+      'imprintContent1': 'Fix - Fair\nQuellhof Straße 26\n34127 Kassel',
       'imprintSection2': 'Inhaber:',
       'imprintContent2':
           'Shehadeh Ayman\nGeboren am: 10.01.1996\nGeburtsort: Muadamia, Syrien',
@@ -310,7 +310,7 @@ class AppLocalizations {
 
       // SEO KEYWORDS FÜR UMZUG KASSEL
       'seoUmzugKassel': 'Umzug Kassel - Professioneller Umzugsservice',
-      'seoUmzugsunternehmen': 'Umzugsunternehmen Kassel - Fix & Fair',
+      'seoUmzugsunternehmen': 'Umzugsunternehmen Kassel - Fix - Fair',
       'seoMoebeltransport': 'Möbeltransport Kassel - Günstig und Zuverlässig',
       'seoEntruempelung': 'Entrümpelung Kassel - Schnell und Preiswert',
       'seoHaushaltsaufloesung': 'Haushaltsauflösung Kassel - Komplettservice',
@@ -328,11 +328,11 @@ class AppLocalizations {
       'seoUmzugsdienst': 'Umzugsdienst Hessen - Bundesweite Services',
       'seoMoebeltaxi': 'Möbeltaxi Kassel - Kleintransporte',
       'seoTransporter': 'Transporter mieten Kassel - Transportlösungen',
-      'seoQualityService': 'Qualitätsumzug Kassel - Fix & Fair Service',
+      'seoQualityService': 'Qualitätsumzug Kassel - Fix - Fair Service',
       'seoReliableMoving': 'Zuverlässiger Umzugsservice Kassel',
     },
     'en': {
-      'appTitle': 'Fix & Fair',
+      'appTitle': 'Fix - Fair',
       'servicesTitle': 'Our Services',
       'servicesSubtitle': 'Your partner for services',
       'requestTitle': 'Free Quote Request',
@@ -353,7 +353,7 @@ class AppLocalizations {
       'errorRequiredFields': 'Please fill in all required fields',
       'errorWhatsapp': 'Could not open WhatsApp',
       'errorEmail': 'Could not open email',
-      'companyName': 'Fix & Fair',
+      'companyName': 'Fix - Fair',
       'address': 'Quellhof Street 26, 34127 Kassel',
       'contact': 'Contact',
       'telephone': 'Tel: +49 176 12345678',
@@ -361,7 +361,7 @@ class AppLocalizations {
       'imprint': 'Imprint',
       'privacy': 'Privacy',
       'terms': 'Terms & Conditions',
-      'copyright': '© 2024 Fix & Fair. All rights reserved.',
+      'copyright': '© 2024 Fix - Fair. All rights reserved.',
 
       'privateMoves': 'Private Moves',
       'officeMoves': 'Office Moves',
@@ -444,7 +444,7 @@ class AppLocalizations {
       // AGB Page - English
       'agbSection1': '§ 1 Scope',
       'agbContent1':
-          '1. These General Terms and Conditions apply to all contracts concluded between Fix & Fair GmbH and the customer.',
+          '1. These General Terms and Conditions apply to all contracts concluded between Fix - Fair GmbH and the customer.',
       'agbSection2': '§ 2 Conclusion of Contract',
       'agbContent2':
           '1. The presentation of services on the internet does not constitute a legally binding offer, but only an invitation to submit an offer.',
@@ -478,14 +478,14 @@ class AppLocalizations {
           'When visiting our website, your surfing behavior may be statistically evaluated. This is done primarily with cookies and so-called analysis programs. The analysis of your surfing behavior is usually anonymous; the surfing behavior cannot be traced back to you.',
       'privacySection5': '5. Responsible Body',
       'privacyContent5':
-          'The body responsible for data processing on this website is:\nFix & Fair\nQuellhof Street 26\n34127 Kassel\nPhone: +49 176 12345678\nEmail: Info@fix-fair.de',
+          'The body responsible for data processing on this website is:\nFix - Fair\nQuellhof Street 26\n34127 Kassel\nPhone: +49 176 12345678\nEmail: Info@fix-fair.de',
       'privacySection6': '6. Revocation of Your Consent to Data Processing',
       'privacyContent6':
           'Many data processing operations are only possible with your express consent. You can revoke consent that you have already given at any time. An informal communication by email to us is sufficient for this.',
 
       // Impressum Page - English
       'imprintSection1': 'Information according to § 5 TMG:',
-      'imprintContent1': 'Fix & Fair\nQuellhof Street 26\n34127 Kassel',
+      'imprintContent1': 'Fix - Fair\nQuellhof Street 26\n34127 Kassel',
       'imprintSection2': 'Owner:',
       'imprintContent2':
           'Shehadeh Ayman\nBorn on: 01/10/1996\nPlace of birth: Muadamia, Syria',
@@ -637,7 +637,7 @@ class AppLocalizations {
 
       // SEO KEYWORDS FOR MOVING KASSEL
       'seoUmzugKassel': 'Moving Kassel - Professional Moving Service',
-      'seoUmzugsunternehmen': 'Moving Company Kassel - Fix & Fair',
+      'seoUmzugsunternehmen': 'Moving Company Kassel - Fix - Fair',
       'seoMoebeltransport': 'Furniture Transport Kassel - Cheap and Reliable',
       'seoEntruempelung': 'Clearance Kassel - Fast and Affordable',
       'seoHaushaltsaufloesung':
@@ -657,7 +657,7 @@ class AppLocalizations {
       'seoUmzugsdienst': 'Moving Service Hesse - Nationwide Services',
       'seoMoebeltaxi': 'Furniture Taxi Kassel - Small Transports',
       'seoTransporter': 'Rent Transporter Kassel - Transport Solutions',
-      'seoQualityService': 'Quality Move Kassel - Fix & Fair Service',
+      'seoQualityService': 'Quality Move Kassel - Fix - Fair Service',
       'seoReliableMoving': 'Reliable Moving Service Kassel',
     },
     'ar': {
@@ -772,7 +772,7 @@ class AppLocalizations {
       // AGB Page - Arabic
       'agbSection1': '§ 1 نطاق التطبيق',
       'agbContent1':
-          '1. تنطق هذه الشروط والأحكام العامة على جميع العقود المبرمة بين Fix & Fair GmbH والعميل.',
+          '1. تنطق هذه الشروط والأحكام العامة على جميع العقود المبرمة بين Fix - Fair GmbH والعميل.',
       'agbSection2': '§ 2 إبرام العقد',
       'agbContent2':
           '1. لا تمثل عرض الخدمات على الإنترنت عرضًا ملزمًا قانونيًا، بل فقط دعوة لتقديم عرض.',
@@ -805,14 +805,14 @@ class AppLocalizations {
           'عند زيارة موقعنا الإلكتروني، قد يتم تقييم سلوك التصفح الخاص بك إحصائيًا. يتم ذلك primarily مع ملفات تعريف الارتباط وما يسمى ببرامج التحليل. يكون تحليل سلوك التصفح الخاص بك مجهولاً عادةً؛ لا يمكن تتبع سلوك التصفح back إليك.',
       'privacySection5': '5. الهيئة المسؤولة',
       'privacyContent5':
-          'الهيئة المسؤولة عن معالجة البيانات على هذا الموقع هي:\nFix & Fair\nشارع كويلهوف 26\n34127 كاسل\nهاتف: 787654321+49\nبريد إلكتروني: Info@fix-fair.de',
+          'الهيئة المسؤولة عن معالجة البيانات على هذا الموقع هي:\nFix - Fair\nشارع كويلهوف 26\n34127 كاسل\nهاتف: 787654321+49\nبريد إلكتروني: Info@fix-fair.de',
       'privacySection6': '6. سحب موافقتك على معالجة البيانات',
       'privacyContent6':
           'العديد من عمليات معالجة البيانات ممكنة فقط بموافقتك الصريحة. يمكنك سحب الموافقة التي قدمتها بالفعل في أي وقت. يكفي إخطار غير رسمي عبر البريد الإلكتروني إلينا.',
 
       // Impressum Page - Arabic
       'imprintSection1': 'معلومات وفقًا لـ § 5 TMG:',
-      'imprintContent1': 'Fix & Fair\nشارع كويلهوف 26\n34127 كاسل',
+      'imprintContent1': 'Fix - Fair\nشارع كويلهوف 26\n34127 كاسل',
       'imprintSection2': 'المالك:',
       'imprintContent2':
           'شحادة أيمن\nتاريخ الميلاد: 10.01.1996\nمكان الميلاد: المعضمية، سوريا',
@@ -960,7 +960,7 @@ class AppLocalizations {
 
       // ARABIC SEO KEYWORDS
       'seoUmzugKassel': 'نقل كاسل - خدمة نقل محترفة',
-      'seoUmzugsunternehmen': 'شركة نقل كاسل - Fix & Fair',
+      'seoUmzugsunternehmen': 'شركة نقل كاسل - Fix - Fair',
       'seoMoebeltransport': 'نقل الأثاث كاسل - رخيص وموثوق',
       'seoEntruempelung': 'تخليص كاسل - سريع وبأسعار معقولة',
       'seoHaushaltsaufloesung': 'تسييل المنزل كاسل - خدمة كاملة',
@@ -978,11 +978,11 @@ class AppLocalizations {
       'seoUmzugsdienst': 'خدمة نقل هيسن - خدمات على مستوى البلاد',
       'seoMoebeltaxi': 'تاكسي الأثاث كاسل - نقل صغير',
       'seoTransporter': 'استئجار نقل كاسل - حلول النقل',
-      'seoQualityService': 'نقل عالي الجودة كاسل - خدمة Fix & Fair',
+      'seoQualityService': 'نقل عالي الجودة كاسل - خدمة Fix - Fair',
       'seoReliableMoving': 'خدمة نقل موثوقة كاسل',
     },
     'tr': {
-      'appTitle': 'Fix & Fair',
+      'appTitle': 'Fix - Fair',
       'servicesTitle': 'Hizmetlerimiz',
       'servicesSubtitle': 'Hizmetler için ortağınız',
       'requestTitle': 'Ücretsiz Teklif Talebi',
@@ -1003,7 +1003,7 @@ class AppLocalizations {
       'errorRequiredFields': 'Lütfen tüm gerekli alanları doldurun',
       'errorWhatsapp': 'WhatsApp açılamadı',
       'errorEmail': 'E-posta açılamadı',
-      'companyName': 'Fix & Fair',
+      'companyName': 'Fix - Fair',
       'address': 'Quellhof Caddesi 26, 34127 Kassel',
       'contact': 'İletişim',
       'telephone': 'Tel: +49 176 12345678',
@@ -1011,7 +1011,7 @@ class AppLocalizations {
       'imprint': 'İletişim Bilgileri',
       'privacy': 'Gizlilik',
       'terms': 'Şartlar ve Koşullar',
-      'copyright': '© 2024 Fix & Fair. Tüm hakları saklıdır.',
+      'copyright': '© 2024 Fix - Fair. Tüm hakları saklıdır.',
 
       'privateMoves': 'Özel Taşınmalar',
       'officeMoves': 'Ofis Taşınmaları',
@@ -1093,7 +1093,7 @@ class AppLocalizations {
       // AGB Page - Turkish
       'agbSection1': '§ 1 Kapsam',
       'agbContent1':
-          '1. Bu Genel Şartlar ve Koşullar, Fix & Fair GmbH ile müşteri arasında akdedilen tüm sözleşmeler için geçerlidir.',
+          '1. Bu Genel Şartlar ve Koşullar, Fix - Fair GmbH ile müşteri arasında akdedilen tüm sözleşmeler için geçerlidir.',
       'agbSection2': '§ 2 Sözleşme Akdi',
       'agbContent2':
           '1. İnternetteki hizmet sunumu, yasal olarak bağlayıcı bir teklif değil, yalnızca bir teklif verme davetidir.',
@@ -1126,14 +1126,14 @@ class AppLocalizations {
           'Web sitemizi ziyaret ettiğinizde, gezinme davranışınız istatistiksel olarak değerlendirilebilir. Bu primarily çerezler ve sözde analiz programları ile yapılır. Gezinme davranışınızın analizi genellikle anonimdir; gezinme davranışı size kadar izlenemez.',
       'privacySection5': '5. Sorumlu Birim',
       'privacyContent5':
-          'Bu web sitesindeki veri işlemeden sorumlu birim:\nFix & Fair\nQuellhof Caddesi 26\n34127 Kassel\nTelefon: +49 176 12345678\nE-posta: Info@fix-fair.de',
+          'Bu web sitesindeki veri işlemeden sorumlu birim:\nFix - Fair\nQuellhof Caddesi 26\n34127 Kassel\nTelefon: +49 176 12345678\nE-posta: Info@fix-fair.de',
       'privacySection6': '6. Veri İşleme İzninizi Geri Çekme',
       'privacyContent6':
           'Birçok veri işleme işlemi yalnızca açık rızanızla mümkündür. Zaten verdiğiniz bir ondamayı istediğiniz zaman geri çekebilirsiniz. Bunun için bize e-posta yoluyla resmi olmayan bir bildirim yeterlidir.',
 
       // Impressum Page - Turkish
       'imprintSection1': '§ 5 TMG\'ye göre bilgiler:',
-      'imprintContent1': 'Fix & Fair\nQuellhof Caddesi 26\n34127 Kassel',
+      'imprintContent1': 'Fix - Fair\nQuellhof Caddesi 26\n34127 Kassel',
       'imprintSection2': 'Sahip:',
       'imprintContent2':
           'Shehadeh Ayman\nDoğum tarihi: 10.01.1996\nDoğum yeri: Muadamia, Suriye',
@@ -1282,7 +1282,7 @@ class AppLocalizations {
 
       // TURKISH SEO KEYWORDS
       'seoUmzugKassel': 'Kassel Taşınma - Profesyonel Taşınma Hizmeti',
-      'seoUmzugsunternehmen': 'Kassel Taşınma Şirketi - Fix & Fair',
+      'seoUmzugsunternehmen': 'Kassel Taşınma Şirketi - Fix - Fair',
       'seoMoebeltransport': 'Kassel Mobilya Nakliyesi - Ucuz ve Güvenilir',
       'seoEntruempelung': 'Kassel Eşya Tasfiyesi - Hızlı ve Uygun Fiyatlı',
       'seoHaushaltsaufloesung': 'Kassel Ev Tasfiyesi - Tam Hizmet',
@@ -1301,11 +1301,11 @@ class AppLocalizations {
       'seoUmzugsdienst': 'Hesse Taşınma Hizmeti - Ülke Çapında Hizmetler',
       'seoMoebeltaxi': 'Kassel Mobilya Taksi - Küçük Nakliyat',
       'seoTransporter': 'Kassel Transporter Kiralama - Taşıma Çözümleri',
-      'seoQualityService': 'Kassel Kaliteli Taşınma - Fix & Fair Hizmeti',
+      'seoQualityService': 'Kassel Kaliteli Taşınma - Fix - Fair Hizmeti',
       'seoReliableMoving': 'Kassel Güvenilir Taşınma Hizmeti',
     },
     'ru': {
-      'appTitle': 'Fix & Fair',
+      'appTitle': 'Fix - Fair',
       'servicesTitle': 'Наши услуги',
       'servicesSubtitle': 'Ваш партнёр по услугам',
       'requestTitle': 'Бесплатный запрос предложения',
@@ -1326,7 +1326,7 @@ class AppLocalizations {
       'errorRequiredFields': 'Пожалуйста, заполните все обязательные поля',
       'errorWhatsapp': 'Не удалось открыть WhatsApp',
       'errorEmail': 'Не удалось открыть email',
-      'companyName': 'Fix & Fair',
+      'companyName': 'Fix - Fair',
       'address': 'Улица Квельхоф 26, 34127 Кассель',
       'contact': 'Контакт',
       'telephone': 'Тел: +49 176 12345678',
@@ -1334,7 +1334,7 @@ class AppLocalizations {
       'imprint': 'Импрессум',
       'privacy': 'Конфиденциальность',
       'terms': 'Условия использования',
-      'copyright': '© 2024 Fix & Fair. Все права защищены.',
+      'copyright': '© 2024 Fix - Fair. Все права защищены.',
 
       'privateMoves': 'Частные переезды',
       'officeMoves': 'Офисные переезды',
@@ -1416,7 +1416,7 @@ class AppLocalizations {
       // AGB Page - Russian
       'agbSection1': '§ 1 Сфера применения',
       'agbContent1':
-          '1. Настоящие Общие условия и положения применяются ко всем договорам, заключенным между Fix & Fair GmbH и клиентом.',
+          '1. Настоящие Общие условия и положения применяются ко всем договорам, заключенным между Fix - Fair GmbH и клиентом.',
       'agbSection2': '§ 2 Заключение договора',
       'agbContent2':
           '1. Представление услуг в Интернете не является юридически обязательным предложением, а лишь приглашением сделать предложение.',
@@ -1451,14 +1451,14 @@ class AppLocalizations {
           'При посещении нашего веб-сайта ваше поведение при просмотре может быть статистически оценено. Это делается primarily с помощью файлов cookie и так называемых программ анализа. Анализ вашего поведения при просмотре обычно анонимен; поведение при просмотре не может быть прослежено back к вам.',
       'privacySection5': '5. Ответственный орган',
       'privacyContent5':
-          'Орган, ответственный за обработку данных на этом веб-сайте:\nFix & Fair\nУлица Квельхоф 26\n34127 Кассель\nТелефон: +49 176 12345678\nEmail: Info@fix-fair.de',
+          'Орган, ответственный за обработку данных на этом веб-сайте:\nFix - Fair\nУлица Квельхоф 26\n34127 Кассель\nТелефон: +49 176 12345678\nEmail: Info@fix-fair.de',
       'privacySection6': '6. Отзыв вашего согласия на обработку данных',
       'privacyContent6':
           'Многие операции по обработке данных возможны только с вашего явного согласия. Вы можете отозвать уже данное согласие в любое время. Для этого достаточно неформального сообщения по электронной почте нам.',
 
       // Impressum Page - Russian
       'imprintSection1': 'Информация согласно § 5 TMG:',
-      'imprintContent1': 'Fix & Fair\nУлица Квельхоф 26\n34127 Кассель',
+      'imprintContent1': 'Fix - Fair\nУлица Квельхоф 26\n34127 Кассель',
       'imprintSection2': 'Владелец:',
       'imprintContent2':
           'Шехаде Айман\nДата рождения: 10.01.1996\nМесто рождения: Муадамия, Сирия',
@@ -1610,7 +1610,7 @@ class AppLocalizations {
 
       // RUSSIAN SEO KEYWORDS
       'seoUmzugKassel': 'Переезд Кассель - Профессиональные услуги переезда',
-      'seoUmzugsunternehmen': 'Компания по переезду Кассель - Fix & Fair',
+      'seoUmzugsunternehmen': 'Компания по переезду Кассель - Fix - Fair',
       'seoMoebeltransport': 'Перевозка мебели Кассель - Дешево и Надежно',
       'seoEntruempelung': 'Расхламление Кассель - Быстро и Недорого',
       'seoHaushaltsaufloesung':
@@ -1631,11 +1631,11 @@ class AppLocalizations {
       'seoUmzugsdienst': 'Услуги переезда Гессен - Услуги по всей стране',
       'seoMoebeltaxi': 'Мебельное такси Кассель - Малые перевозки',
       'seoTransporter': 'Аренда транспортера Кассель - Транспортные решения',
-      'seoQualityService': 'Качественный переезд Кассель - Сервис Fix & Fair',
+      'seoQualityService': 'Качественный переезд Кассель - Сервис Fix - Fair',
       'seoReliableMoving': 'Надежные услуги переезда Кассель',
     },
     'uk': {
-      'appTitle': 'Fix & Fair',
+      'appTitle': 'Fix - Fair',
       'servicesTitle': 'Наші послуги',
       'servicesSubtitle': 'Ваш партнер з надання послуг',
       'requestTitle': 'Безкоштовний запит пропозиції',
@@ -1656,7 +1656,7 @@ class AppLocalizations {
       'errorRequiredFields': 'Будь ласка, заповніть всі обов\'язкові поля',
       'errorWhatsapp': 'Не вдалося відкрити WhatsApp',
       'errorEmail': 'Не вдалося відкрити email',
-      'companyName': 'Fix & Fair',
+      'companyName': 'Fix - Fair',
       'address': 'Вулиця Квельхоф 26, 34127 Кассель',
       'contact': 'Контакт',
       'telephone': 'Тел: +49 176 12345678',
@@ -1664,7 +1664,7 @@ class AppLocalizations {
       'imprint': 'Імпресум',
       'privacy': 'Конфіденційність',
       'terms': 'Умови використання',
-      'copyright': '© 2024 Fix & Fair. Всі права захищені.',
+      'copyright': '© 2024 Fix - Fair. Всі права захищені.',
 
       'privateMoves': 'Приватні переїзди',
       'officeMoves': 'Офісні переїзди',
@@ -1747,7 +1747,7 @@ class AppLocalizations {
       // AGB Page - Ukrainian
       'agbSection1': '§ 1 Сфера застосування',
       'agbContent1':
-          '1. Ці Загальні умови та положення застосовуються до всіх договорів, укладених між Fix & Fair GmbH та клієнтом.',
+          '1. Ці Загальні умови та положення застосовуються до всіх договорів, укладених між Fix - Fair GmbH та клієнтом.',
       'agbSection2': '§ 2 Укладення договору',
       'agbContent2':
           '1. Подання послуг в Інтернеті не є юридично обов\'язковою пропозицією, а лише запрошенням зробити пропозицію.',
@@ -1782,14 +1782,14 @@ class AppLocalizations {
           'При відвідуванні нашого веб-сайту ваша поведінка при перегляді може бути статистично оцінена. Це робиться primarily за допомогою файлів cookie та так званих програм аналізу. Аналіз вашої поведінки при перегляді зазвичай анонімний; поведінку при перегляді не можна простежити back до вас.',
       'privacySection5': '5. Відповідальний орган',
       'privacyContent5':
-          'Орган, відповідальний за обробку даних на цьому веб-сайті:\nFix & Fair\nВулиця Квельхоф 26\n34127 Кассель\nТелефон: +49 176 12345678\nEmail: Info@fix-fair.de',
+          'Орган, відповідальний за обробку даних на цьому веб-сайті:\nFix - Fair\nВулиця Квельхоф 26\n34127 Кассель\nТелефон: +49 176 12345678\nEmail: Info@fix-fair.de',
       'privacySection6': '6. Відкликання вашої згоди на обробку даних',
       'privacyContent6':
           'Багато операцій з обробки даних можливі лише за вашої явної згоди. Ви можете відкликати вже надану згоду в будь-який час. Для цього достатньо неформального повідомлення нам по електронній пошті.',
 
       // Impressum Page - Ukrainian
       'imprintSection1': 'Інформація згідно § 5 TMG:',
-      'imprintContent1': 'Fix & Fair\nВулиця Квельхоф 26\n34127 Кассель',
+      'imprintContent1': 'Fix - Fair\nВулиця Квельхоф 26\n34127 Кассель',
       'imprintSection2': 'Власник:',
       'imprintContent2':
           'Шехаде Айман\nДата народження: 10.01.1996\nМісце народження: Муадамія, Сирія',
@@ -1943,7 +1943,7 @@ class AppLocalizations {
 
       // UKRAINIAN SEO KEYWORDS
       'seoUmzugKassel': 'Переїзд Кассель - Професійні послуги переїзду',
-      'seoUmzugsunternehmen': 'Компанія з переїзду Кассель - Fix & Fair',
+      'seoUmzugsunternehmen': 'Компанія з переїзду Кассель - Fix - Fair',
       'seoMoebeltransport': 'Перевезення меблів Кассель - Дешево та Надійно',
       'seoEntruempelung': 'Розхламлення Кассель - Швидко та Недорого',
       'seoHaushaltsaufloesung':
@@ -1964,7 +1964,7 @@ class AppLocalizations {
       'seoUmzugsdienst': 'Послуги переїзду Гессен - Послуги по всій країні',
       'seoMoebeltaxi': 'Меблеве таксі Кассель - Малі перевезення',
       'seoTransporter': 'Оренда транспортера Кассель - Транспортні рішення',
-      'seoQualityService': 'Якісний переїзд Кассель - Сервіс Fix & Fair',
+      'seoQualityService': 'Якісний переїзд Кассель - Сервіс Fix - Fair',
       'seoReliableMoving': 'Надійні послуги переїзду Кассель',
     },
   };

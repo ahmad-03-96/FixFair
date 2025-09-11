@@ -41,7 +41,7 @@ class SeoSection extends StatelessWidget {
 
           // Haupt-Überschrift
           Text(
-            'Fix & Fair - ${localizations.seoUmzugsunternehmen}',
+            'Fix - Fair - ${localizations.seoUmzugsunternehmen}',
             style: TextStyle(
               fontSize: 28,
               fontWeight: FontWeight.bold,

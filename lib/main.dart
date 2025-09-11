@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
           final languageProvider = Provider.of<LanguageProvider>(context);
 
           return MaterialApp(
-            title: 'Fix & Fair',
+            title: 'Fix - Fair',
             theme: ThemeProvider.lightTheme,
             darkTheme: ThemeProvider.darkTheme,
             themeMode: themeProvider.themeMode,

@@ -165,7 +165,7 @@ class Footer extends StatelessWidget {
                 // Service-Bereich
                 _buildInfoSection(
                   icon: Icons.build,
-                  title: 'Unsere Services',
+                  title: localizations.servicesTitle,
                   content: Wrap(
                     spacing: 8,
                     runSpacing: 4,
