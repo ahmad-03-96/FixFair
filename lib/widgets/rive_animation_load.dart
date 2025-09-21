@@ -7,6 +7,7 @@ class RiveAnimationLoad extends StatefulWidget {
   final double maxSize;
   final assets;
   final String stateMachineName;
+  final bool pointerEvents;
 
   const RiveAnimationLoad({
     this.onTap,
@@ -14,6 +15,7 @@ class RiveAnimationLoad extends StatefulWidget {
     Key? key,
     this.assets = 'assets/animations/logo.riv',
     this.stateMachineName = 'State Machine 1',
+    this.pointerEvents = false,
   }) : super(key: key);
 
   @override
@@ -91,13 +93,20 @@ class _RiveLogoState extends State<RiveAnimationLoad> {
             width: animationSize * 7.5,
             height: animationSize * 0.25,
             decoration: BoxDecoration(borderRadius: BorderRadius.circular(20)),
-            child: _riveArtboard != null
+            child: _riveArtboard != null && widget.pointerEvents
                 ? Rive(
               enablePointerEvents: true,
               artboard: _riveArtboard!,
               fit: BoxFit.contain,
               alignment: Alignment.center,
             )
+            :_riveArtboard != null && !widget.pointerEvents
+                ? Rive(
+              artboard: _riveArtboard!,
+              fit: BoxFit.contain,
+              alignment: Alignment.center,
+            )
+
                 : _buildLoadingPlaceholder(animationSize), // Ladeanimation
           ),
         );

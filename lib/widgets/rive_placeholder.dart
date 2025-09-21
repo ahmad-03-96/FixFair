@@ -115,7 +115,7 @@ class _RivePlaceholderState extends State<RivePlaceholder> {
                           // 50% der Gesamthöhe für Animation
                           child: _riveArtboard != null
                               ? Rive(
-                            enablePointerEvents: true,
+                            //enablePointerEvents: true,
                             artboard: _riveArtboard!,
                             fit: BoxFit.contain,
                           )

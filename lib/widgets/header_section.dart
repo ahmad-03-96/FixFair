@@ -29,6 +29,7 @@ class HeaderSection extends StatelessWidget {
         children: [
           // Rive Logo anstelle des Platzhalters
           RiveAnimationLoad(
+            pointerEvents: true,
             maxSize: 250,
             assets: 'assets/animations/truck.riv',
             onTap: () {
@@ -37,6 +38,7 @@ class HeaderSection extends StatelessWidget {
             },
           ),
           RiveAnimationLoad(
+            pointerEvents: false,
             maxSize: 250,
             assets: 'assets/animations/logo.riv',
             onTap: () {
