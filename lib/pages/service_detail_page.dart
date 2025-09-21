@@ -63,7 +63,7 @@ class _ServiceDetailPageState extends State<ServiceDetailPage> {
         _riveArtboard = artboard;
       });
     } catch (e) {
-      print('Fehler beim Laden der Rive Animation: $e');
+      print('Failed to load Rive animation: $e');
     }
   }
 
