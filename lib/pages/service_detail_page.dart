@@ -32,7 +32,8 @@ class _ServiceDetailPageState extends State<ServiceDetailPage> {
       TextEditingController();
 
   Artboard? _riveArtboard;
-
+  late StateMachineController? stateMachineController;
+  late String stateMachineName = 'State Machine 1';
   @override
   void initState() {
     super.initState();
@@ -43,19 +44,26 @@ class _ServiceDetailPageState extends State<ServiceDetailPage> {
     try {
       final bytes = await rootBundle.load(widget.service.imageAsset);
       final file = RiveFile.import(bytes);
+
       final artboard = file.mainArtboard;
 
-      if (artboard.animations.isNotEmpty) {
-        for (final animation in artboard.animations) {
-          artboard.addController(SimpleAnimation(animation.name));
-        }
+      // Automatisch alle Animationen abspielen
+      stateMachineController = StateMachineController.fromArtboard(
+        artboard,
+        stateMachineName,
+      )!;
+      if (stateMachineController != null) {
+        artboard.addController(stateMachineController!);
+      } else {
+        // Fallback: Idle-Animation falls keine spezifische Animation existiert
+        artboard.addController(SimpleAnimation('idle'));
       }
 
       setState(() {
         _riveArtboard = artboard;
       });
     } catch (e) {
-      print('Failed to load Rive animation: $e');
+      print('Fehler beim Laden der Rive Animation: $e');
     }
   }
 
@@ -204,7 +212,10 @@ class _ServiceDetailPageState extends State<ServiceDetailPage> {
               ),
               child: Center(
                 child: _riveArtboard != null
-                    ? Rive(artboard: _riveArtboard!, fit: BoxFit.contain)
+                    ? Rive(enablePointerEvents: true,
+                  artboard: _riveArtboard!,
+                  fit: BoxFit.contain,
+                  alignment: Alignment.center,)
                     : Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [

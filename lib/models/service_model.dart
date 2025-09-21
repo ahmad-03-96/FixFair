@@ -169,7 +169,7 @@ List<Service> getServices(BuildContext context) {
       id: 'kuechenmontage',
       title: (context) => localizations.kitchenAssembly,
       description: (context) => localizations.kitchenAssemblyDesc,
-      imageAsset: 'assets/animations/kitchenAssembly.riv',
+      imageAsset: 'assets/animations/kuechenmontage.riv',
       features: (context) => [
         '✓ ${localizations.kitchenAssemblyDesc.split('.')[0]}',
         '✓ ${localizations.electricalConnections}',
@@ -183,7 +183,7 @@ List<Service> getServices(BuildContext context) {
       id: 'moebelmontage',
       title: (context) => localizations.assemblies,
       description: (context) => localizations.assembliesDesc,
-      imageAsset: 'assets/animations/assemblies.riv',
+      imageAsset: 'assets/animations/moebelmontage.riv',
       features: (context) => [
         '✓ ${localizations.assembliesDesc.split('.')[0]}',
         '✓ ${localizations.builtinCabinets}',
@@ -197,7 +197,7 @@ List<Service> getServices(BuildContext context) {
       id: 'haushaltsaufloesung',
       title: (context) => localizations.householdLiquidation,
       description: (context) => localizations.householdLiquidationDesc,
-      imageAsset: 'assets/animations/householdLiquidation.riv',
+      imageAsset: 'assets/animations/haushaltsaufloesung.riv',
       features: (context) => [
         '✓ ${localizations.householdLiquidationDesc.split('.')[0]}',
         '✓ ${localizations.sortingItems}',
