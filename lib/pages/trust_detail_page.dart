@@ -46,6 +46,7 @@ class TrustDetailPage extends StatelessWidget {
                 assets: 'assets/animations/trust.riv',
                 maxSize: 350,
                 stateMachineName: 'State Machine 1',
+                pointerEvents: true,
               ),
             ),
 

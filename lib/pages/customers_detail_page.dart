@@ -45,6 +45,7 @@ class CustomersDetailPage extends StatelessWidget {
                 assets: 'assets/animations/customers.riv',
                 maxSize: 350,
                 stateMachineName: 'State Machine 1',
+                pointerEvents: true,
               ),
             ),
 

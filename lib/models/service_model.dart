@@ -211,7 +211,7 @@ List<Service> getServices(BuildContext context) {
       id: 'sonstiges',
       title: (context) => localizations.somethingelse,
       description: (context) => 'Individuelle Dienstleistungen nach Ihren speziellen Anforderungen.',
-      imageAsset: 'assets/animations/somethingelse.riv',
+      imageAsset: 'assets/animations/sonstiges.riv',
       features: (context) => [
         '✓ ${localizations.customSolutions}',
         '✓ ${localizations.flexibleScheduling}',
