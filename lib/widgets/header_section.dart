@@ -6,7 +6,14 @@ import '../providers/language_provider.dart';
 import '../providers/theme_provider.dart';
 import 'rive_animation_load.dart'; // Import hinzufügen
 
-class HeaderSection extends StatelessWidget {
+class HeaderSection extends StatefulWidget {
+  @override
+  _HeaderSectionState createState() => _HeaderSectionState();
+}
+
+class _HeaderSectionState extends State<HeaderSection> {
+  bool _settingsExpanded = false;
+
   @override
   Widget build(BuildContext context) {
     final themeProvider = Provider.of<ThemeProvider>(context);
@@ -27,38 +34,20 @@ class HeaderSection extends StatelessWidget {
       ),
       child: Column(
         children: [
-          // Rive Logo anstelle des Platzhalters
+          // Rive Logos
           RiveAnimationLoad(
             pointerEvents: true,
             maxSize: 250,
             assets: 'assets/animations/truck.riv',
-            onTap: () {
-              // Optional: Logo-Tap Funktion
-              print('Logo wurde angeklickt');
-            },
+            onTap: () => print('Truck Logo wurde angeklickt'),
           ),
           RiveAnimationLoad(
             pointerEvents: false,
             maxSize: 250,
             assets: 'assets/animations/logo.riv',
-            onTap: () {
-              // Optional: Logo-Tap Funktion
-              print('Logo wurde angeklickt');
-            },
+            onTap: () => print('Logo wurde angeklickt'),
           ),
-          /*
-          SizedBox(height: 20),
-          Text(
-            localizations.appTitle,
-            style: TextStyle(
-              fontSize: 32,
-              fontWeight: FontWeight.bold,
-              color: textColor,
-            ),
-            textAlign: TextAlign.center,
-          ),
-          SizedBox(height: 10),
-          */
+
           Text(
             localizations.servicesSubtitle,
             style: TextStyle(
@@ -69,131 +58,157 @@ class HeaderSection extends StatelessWidget {
             ),
             textAlign: TextAlign.center,
           ),
+
           SizedBox(height: 30),
 
-          // Einstellungen
-          Container(
-            padding: EdgeInsets.all(16),
-            decoration: BoxDecoration(
-              color: themeProvider.themeMode == ThemeMode.dark
-                  ? Colors.black.withOpacity(0.3)
-                  : Colors.white.withOpacity(0.1),
-              borderRadius: BorderRadius.circular(15),
-              border: Border.all(color: textColor.withOpacity(0.3)),
-            ),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+          // Zahnrad-Icon zum Aufklappen
+          GestureDetector(
+            onTap: () {
+              setState(() {
+                _settingsExpanded = !_settingsExpanded;
+              });
+            },
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                // Titel mit Icon
-                Row(
-                  children: [
-                    Icon(Icons.settings, color: textColor, size: 20),
-                    SizedBox(width: 8),
-                    Text(
-                      localizations.settings,
-                      style: TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold,
-                        color: textColor,
-                      ),
-                    ),
-                  ],
-                ),
-                SizedBox(height: 16),
-
-                // Dark Mode Einstellung
-                _buildSettingItem(
-                  icon: Icons.brightness_4,
-                  title: localizations.darkMode,
-                  textColor: textColor,
-                  trailing: Switch(
-                    value: themeProvider.themeMode == ThemeMode.dark,
-                    onChanged: (value) {
-                      themeProvider.setThemeMode(
-                        value ? ThemeMode.dark : ThemeMode.light,
-                      );
-                    },
-                    activeColor: themeProvider.themeMode == ThemeMode.dark
-                        ? Colors.grey[400]
-                        : Colors.blue,
-                    activeTrackColor: themeProvider.themeMode == ThemeMode.dark
-                        ? Colors.grey[600]
-                        : Colors.blue[200],
-                  ),
-                ),
-
-                Divider(color: textColor.withOpacity(0.3), height: 24),
-
-                // Spracheinstellung
-                _buildSettingItem(
-                  icon: Icons.language,
-                  title: localizations.language,
-                  textColor: textColor,
-                  trailing: Container(
-                    padding: EdgeInsets.symmetric(horizontal: 8),
-                    decoration: BoxDecoration(
-                      color: themeProvider.themeMode == ThemeMode.dark
-                          ? Colors.black.withOpacity(0.5)
-                          : Colors.white.withOpacity(0.2),
-                      borderRadius: BorderRadius.circular(8),
-                      border: Border.all(color: textColor.withOpacity(0.4)),
-                    ),
-                    child: DropdownButton<Locale>(
-                      value: languageProvider.locale,
-                      dropdownColor: themeProvider.themeMode == ThemeMode.dark
-                          ? Colors.grey[900]
-                          : Colors.white,
-                      icon: Icon(
-                        Icons.arrow_drop_down,
-                        color: textColor,
-                        size: 24,
-                      ),
-                      iconSize: 24,
-                      underline: SizedBox(),
-                      style: TextStyle(color: textColor, fontSize: 14),
-                      onChanged: (Locale? newLocale) {
-                        if (newLocale != null) {
-                          languageProvider.setLocale(newLocale);
-                          // Toast anzeigen
-                          ScaffoldMessenger.of(context).showSnackBar(
-                            SnackBar(
-                              content: Text(
-                                localizations.languageChanged,
-                              ),
-                              duration: Duration(seconds: 1),
-                            ),
-                          );
-                        }
-                      },
-                      items: [
-                        _buildLanguageItem('Deutsch', '🇩🇪', 'de', textColor),
-                        _buildLanguageItem('English', '🇬🇧', 'en', textColor),
-                        _buildLanguageItem('العربية', '🇸🇦', 'ar', textColor),
-                        _buildLanguageItem('Türkçe', '🇹🇷', 'tr', textColor),
-                        _buildLanguageItem('Русский', '🇷🇺', 'ru', textColor),
-                        _buildLanguageItem(
-                          'Українська',
-                          '🇺🇦',
-                          'uk',
-                          textColor,
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-
-                SizedBox(height: 8),
-
-                // Info Text
+                Icon(Icons.settings, color: textColor),
+                SizedBox(width: 8),
                 Text(
-                  localizations.settingsSaved,
+                  localizations.settings,
                   style: TextStyle(
-                    fontSize: 12,
-                    color: textColor.withOpacity(0.7),
-                    fontStyle: FontStyle.italic,
+                    fontSize: 18,
+                    fontWeight: FontWeight.bold,
+                    color: textColor,
                   ),
+                ),
+                Icon(
+                  _settingsExpanded
+                      ? Icons.keyboard_arrow_up
+                      : Icons.keyboard_arrow_down,
+                  color: textColor,
                 ),
               ],
+            ),
+          ),
+
+          SizedBox(height: 16),
+
+          // Einstellungen aufklappen
+          AnimatedCrossFade(
+            duration: Duration(milliseconds: 300),
+            crossFadeState: _settingsExpanded
+                ? CrossFadeState.showFirst
+                : CrossFadeState.showSecond,
+            firstChild: _buildSettingsContent(
+              themeProvider,
+              languageProvider,
+              localizations,
+              textColor,
+              context,
+            ),
+            secondChild: SizedBox.shrink(),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildSettingsContent(
+      ThemeProvider themeProvider,
+      LanguageProvider languageProvider,
+      AppLocalizations localizations,
+      Color textColor,
+      BuildContext context,
+      ) {
+    return Container(
+      padding: EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: themeProvider.themeMode == ThemeMode.dark
+            ? Colors.black.withOpacity(0.3)
+            : Colors.white.withOpacity(0.1),
+        borderRadius: BorderRadius.circular(15),
+        border: Border.all(color: textColor.withOpacity(0.3)),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          // Dark Mode
+          _buildSettingItem(
+            icon: Icons.brightness_4,
+            title: localizations.darkMode,
+            textColor: textColor,
+            trailing: Switch(
+              value: themeProvider.themeMode == ThemeMode.dark,
+              onChanged: (value) {
+                themeProvider.setThemeMode(
+                  value ? ThemeMode.dark : ThemeMode.light,
+                );
+              },
+              activeColor: themeProvider.themeMode == ThemeMode.dark
+                  ? Colors.grey[400]
+                  : Colors.blue,
+              activeTrackColor: themeProvider.themeMode == ThemeMode.dark
+                  ? Colors.grey[600]
+                  : Colors.blue[200],
+            ),
+          ),
+
+          Divider(color: textColor.withOpacity(0.3), height: 24),
+
+          // Sprache
+          _buildSettingItem(
+            icon: Icons.language,
+            title: localizations.language,
+            textColor: textColor,
+            trailing: Container(
+              padding: EdgeInsets.symmetric(horizontal: 8),
+              decoration: BoxDecoration(
+                color: themeProvider.themeMode == ThemeMode.dark
+                    ? Colors.black.withOpacity(0.5)
+                    : Colors.white.withOpacity(0.2),
+                borderRadius: BorderRadius.circular(8),
+                border: Border.all(color: textColor.withOpacity(0.4)),
+              ),
+              child: DropdownButton<Locale>(
+                value: languageProvider.locale,
+                dropdownColor: themeProvider.themeMode == ThemeMode.dark
+                    ? Colors.grey[900]
+                    : Colors.white,
+                icon: Icon(Icons.arrow_drop_down, color: textColor),
+                iconSize: 24,
+                underline: SizedBox(),
+                style: TextStyle(color: textColor, fontSize: 14),
+                onChanged: (Locale? newLocale) {
+                  if (newLocale != null) {
+                    languageProvider.setLocale(newLocale);
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(
+                        content: Text(localizations.languageChanged),
+                        duration: Duration(seconds: 1),
+                      ),
+                    );
+                  }
+                },
+                items: [
+                  _buildLanguageItem('Deutsch', '🇩🇪', 'de', textColor),
+                  _buildLanguageItem('English', '🇬🇧', 'en', textColor),
+                  _buildLanguageItem('العربية', '🇸🇦', 'ar', textColor),
+                  _buildLanguageItem('Türkçe', '🇹🇷', 'tr', textColor),
+                  _buildLanguageItem('Русский', '🇷🇺', 'ru', textColor),
+                  _buildLanguageItem('Українська', '🇺🇦', 'uk', textColor),
+                ],
+              ),
+            ),
+          ),
+
+          SizedBox(height: 8),
+
+          Text(
+            localizations.settingsSaved,
+            style: TextStyle(
+              fontSize: 12,
+              color: textColor.withOpacity(0.7),
+              fontStyle: FontStyle.italic,
             ),
           ),
         ],
@@ -223,11 +238,11 @@ class HeaderSection extends StatelessWidget {
   }
 
   DropdownMenuItem<Locale> _buildLanguageItem(
-    String name,
-    String flag,
-    String languageCode,
-    Color textColor,
-  ) {
+      String name,
+      String flag,
+      String languageCode,
+      Color textColor,
+      ) {
     return DropdownMenuItem<Locale>(
       value: Locale(languageCode),
       child: Row(
